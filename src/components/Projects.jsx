@@ -4,7 +4,7 @@ import bookStoreImage from '../assets/bookStore.jpg';
 import electronicShopImage from '../assets/eletronicShop.jpg';
 import escrowProjectReact from '../assets/escrowProjectReact.png';
 import safepay from '../assets/safepay.jpeg';
-import recipeApp from '../assets/recipeApp.png'
+import recipeApp from '../assets/recipeApp.png';
 
 const Projects = () => {
   const projects = [
@@ -12,7 +12,7 @@ const Projects = () => {
       title: "Book store project",
       description: "I used Mern-stack to develop this project and it was really beneficial in my tech journey",
       image: bookStoreImage,
-      githubLink: "https://github.com/danray472/MERN-stack-book-store",
+      githubLink: "https://github.com/danray472/MERN-bookStoreProj/tree/master",
     },
     {
       title: "Electronic repair shop management system",
@@ -24,7 +24,7 @@ const Projects = () => {
       title: "Escrow project react",
       description: "Mern-stack was used in this project and firebase technology for the backend",
       image: escrowProjectReact,
-      githubLink: "https://github.com/danray472/escrow_project_react.git",
+      githubLink: "https://github.com/danray472/escrow_project_react/tree/master",
     },
     {
       title: "SafePay project",
@@ -42,7 +42,7 @@ const Projects = () => {
 
   return (
     <div className="container mx-auto py-12" id="projects">
-      <h2 className="text-3xl font-serif text-[#ef4444] font-bold text-center mb-8">Projects</h2>
+      <h2 className="text-3xl font-serif gradient-text font-bold text-center mb-8">Projects</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {projects.map((project, index) => (
           <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden hover:bg-gray-50">

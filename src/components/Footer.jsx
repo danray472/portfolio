@@ -7,7 +7,7 @@ const Footer = () => {
       <div className='bg-gray-600 flex items-center justify-between w-full px-3 rounded-sm'>
       <span className='text-white'>M. Dan</span>
       <div className='flex gap-4'>
-        <a href='https://wa.me/0739798820' target='_blank' rel='noopener noreferrer' className='text-white'>
+        <a href='https://wa.me/254739798820' target='_blank' rel='noopener noreferrer' className='text-white'>
           <FaWhatsapp size={24} />
         </a>
         <a href='https://github.com/danray472' target='_blank' rel='noopener noreferrer' className='text-white'>

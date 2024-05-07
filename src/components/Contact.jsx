@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div id="contact" className='max-w-[1200px] mx-auto sm:py-py-20 p-5'>
      <div className='text-center'>
-      <h2 className='text-4x1 font-bold leading-tight font-serif text-[#ef4444]'>Contact me</h2>
+      <h2 className='text-4x1 font-bold leading-tight font-serif gradient-text'>Contact me</h2>
      </div>
    
    <div className=' mx-auto'>
