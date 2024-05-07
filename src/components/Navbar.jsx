@@ -55,7 +55,7 @@ const Navbar = () => {
         </ul>
       )}
     
-      <div className={nav ? 'fixed h-[40%] left-0 top-0 w-[50%] ease-in-out duration-500 primary-color rounded-md text-white' : 'fixed left-[-100%]'}>
+      <div className={nav ? 'fixed h-[40%] left-0 top-0 w-[50%] ease-in-out duration-500 primary-color z-10 fixed rounded-md text-white' : 'fixed left-[-100%]'}>
         {/* Add event listener to prevent menu from closing when clicking inside */}
         <ul className='p-8 text-2xl mt-6 rounded-x' onClick={preventClose}>
           <li className='p-2'><a href='#about' onClick={handleLinkClick}>About</a></li>
