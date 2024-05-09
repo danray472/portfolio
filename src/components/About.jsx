@@ -21,7 +21,7 @@ const About = () => {
             <br />
             <span className='gradient-text font-sans italic'>I'm a</span>
             <br/>
-            <TypeAnimation className='text-black text-white'
+            <TypeAnimation className='gradient-text'
               sequence={[
                 "Software engineer",
                 1000,

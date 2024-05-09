@@ -41,7 +41,7 @@ const Navbar = () => {
       {/* Menu icon on the right */}
       <div className="flex items-center">
         <div onClick={handleNav} className='block md:hidden mr-4'>
-          {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
+          {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={25} className='primary-color'/>}
         </div>
       </div>
       
