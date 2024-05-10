@@ -6,7 +6,9 @@ import ReactImage from '../assets/react.ico';
 import mongoDB from '../assets/mongoDB.jpeg';
 import sql from '../assets/sql.png';
 import tailwind from '../assets/tailwind.png';
-import python from '../assets/python.png'
+import python from '../assets/python.png';
+import networking from '../assets/networking.jpg';
+import security from '../assets/cyberSecurity.jpg';
 
 const Skills = () => {
   return (
@@ -52,6 +54,16 @@ const Skills = () => {
           <img src={python} alt="Python" className="w-20 mx-auto animate-pulse" />
           <h3 className="text-lg font-semibold mt-4">Python</h3>
           <p className="text-sm text-gray-600 mt-2">Python is one of the most used programming languages for many years now, Python also can do almost anything so I find it hard not to have it in my skills-stack</p>
+        </div>
+        <div className="bg-white border border-white p-4 rounded-lg shadow-md">
+          <img src={networking} alt="Python" className="w-20 mx-auto animate-pulse rounded-sm" />
+          <h3 className="text-lg font-semibold mt-4">Computer Network</h3>
+          <p className="text-sm text-gray-600 mt-2">Computer networking is one of the most fundamental skills for any tech job and I also embrace the skill.I also took CCNA certification to understand the field better </p>
+        </div>
+        <div className="bg-white border border-white p-4 rounded-lg shadow-md">
+          <img src={security} alt="Python" className="w-20 mx-auto animate-pulse p-0 m-0 rounded-sm" />
+          <h3 className="text-lg font-semibold mt-4">Cyber Security</h3>
+          <p className="text-sm text-gray-600 mt-2">Computer Security is also very important in the modern era of computer technology. I read a lot about cyber security and also am a network security certified</p>
         </div>
       </div>
     </div>
