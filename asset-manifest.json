@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0ec636dc.css",
-    "main.js": "/portfolio/static/js/main.3fe18184.js",
+    "main.css": "/portfolio/static/css/main.7486e4fe.css",
+    "main.js": "/portfolio/static/js/main.5d582a3a.js",
     "static/media/bookStore.jpg": "/portfolio/static/media/bookStore.ecf3918b39cec0a00c52.jpg",
     "static/media/eletronicShop.jpg": "/portfolio/static/media/eletronicShop.e14e719b8c6eff503e66.jpg",
     "static/media/networking.jpg": "/portfolio/static/media/networking.5b21f43ca2900e101849.jpg",
@@ -9,6 +9,7 @@
     "static/media/cyberSecurity.jpg": "/portfolio/static/media/cyberSecurity.d9a9ab6a748229087285.jpg",
     "static/media/myImage.png": "/portfolio/static/media/myImage.0a66a898f90b8a9360ea.png",
     "static/media/escrowProjectReact.png": "/portfolio/static/media/escrowProjectReact.01e568111bdb9d72088a.png",
+    "static/media/versionControl.jpg": "/portfolio/static/media/versionControl.31041410ba0d564a2ce1.jpg",
     "static/media/python.png": "/portfolio/static/media/python.9859e72b503f6212e340.png",
     "static/media/safepay.jpeg": "/portfolio/static/media/safepay.ec38e9597c3c29121d40.jpeg",
     "static/media/html.png": "/portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
@@ -17,11 +18,11 @@
     "static/media/javascript.png": "/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "static/media/react.ico": "/portfolio/static/media/react.4fe75d5f9adb18067b85.ico",
     "index.html": "/portfolio/index.html",
-    "main.0ec636dc.css.map": "/portfolio/static/css/main.0ec636dc.css.map",
-    "main.3fe18184.js.map": "/portfolio/static/js/main.3fe18184.js.map"
+    "main.7486e4fe.css.map": "/portfolio/static/css/main.7486e4fe.css.map",
+    "main.5d582a3a.js.map": "/portfolio/static/js/main.5d582a3a.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ec636dc.css",
-    "static/js/main.3fe18184.js"
+    "static/css/main.7486e4fe.css",
+    "static/js/main.5d582a3a.js"
   ]
 }
