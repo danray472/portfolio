@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7486e4fe.css",
-    "main.js": "/portfolio/static/js/main.5d582a3a.js",
+    "main.css": "/portfolio/static/css/main.25015bac.css",
+    "main.js": "/portfolio/static/js/main.97170dc2.js",
     "static/media/bookStore.jpg": "/portfolio/static/media/bookStore.ecf3918b39cec0a00c52.jpg",
     "static/media/eletronicShop.jpg": "/portfolio/static/media/eletronicShop.e14e719b8c6eff503e66.jpg",
     "static/media/networking.jpg": "/portfolio/static/media/networking.5b21f43ca2900e101849.jpg",
@@ -18,11 +18,11 @@
     "static/media/javascript.png": "/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "static/media/react.ico": "/portfolio/static/media/react.4fe75d5f9adb18067b85.ico",
     "index.html": "/portfolio/index.html",
-    "main.7486e4fe.css.map": "/portfolio/static/css/main.7486e4fe.css.map",
-    "main.5d582a3a.js.map": "/portfolio/static/js/main.5d582a3a.js.map"
+    "main.25015bac.css.map": "/portfolio/static/css/main.25015bac.css.map",
+    "main.97170dc2.js.map": "/portfolio/static/js/main.97170dc2.js.map"
   },
   "entrypoints": [
-    "static/css/main.7486e4fe.css",
-    "static/js/main.5d582a3a.js"
+    "static/css/main.25015bac.css",
+    "static/js/main.97170dc2.js"
   ]
 }
