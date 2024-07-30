@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.25015bac.css",
-    "main.js": "/portfolio/static/js/main.9643a903.js",
+    "main.js": "/portfolio/static/js/main.9006ed89.js",
     "static/media/bookStore.jpg": "/portfolio/static/media/bookStore.ecf3918b39cec0a00c52.jpg",
     "static/media/eletronicShop.jpg": "/portfolio/static/media/eletronicShop.e14e719b8c6eff503e66.jpg",
     "static/media/networking.jpg": "/portfolio/static/media/networking.5b21f43ca2900e101849.jpg",
     "static/media/recipeApp.png": "/portfolio/static/media/recipeApp.0af1d1f61a643dc1105c.png",
     "static/media/cyberSecurity.jpg": "/portfolio/static/media/cyberSecurity.d9a9ab6a748229087285.jpg",
-    "static/media/myImage.png": "/portfolio/static/media/myImage.0a66a898f90b8a9360ea.png",
+    "static/media/myImage.png": "/portfolio/static/media/myImage.67e25d7a9511a40274b6.png",
     "static/media/escrowProjectReact.png": "/portfolio/static/media/escrowProjectReact.01e568111bdb9d72088a.png",
     "static/media/versionControl.jpg": "/portfolio/static/media/versionControl.31041410ba0d564a2ce1.jpg",
     "static/media/python.png": "/portfolio/static/media/python.9859e72b503f6212e340.png",
@@ -19,10 +19,10 @@
     "static/media/react.ico": "/portfolio/static/media/react.4fe75d5f9adb18067b85.ico",
     "index.html": "/portfolio/index.html",
     "main.25015bac.css.map": "/portfolio/static/css/main.25015bac.css.map",
-    "main.9643a903.js.map": "/portfolio/static/js/main.9643a903.js.map"
+    "main.9006ed89.js.map": "/portfolio/static/js/main.9006ed89.js.map"
   },
   "entrypoints": [
     "static/css/main.25015bac.css",
-    "static/js/main.9643a903.js"
+    "static/js/main.9006ed89.js"
   ]
 }
