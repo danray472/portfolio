@@ -2,20 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-.primary-color{
+.primary-color {
     @apply bg-gradient-to-r from-orange-400 to-pink-600 inline-block;
 }
 
 .gradient-text {
     @apply bg-gradient-to-r from-yellow-400 to-pink-600 bg-clip-text text-transparent;
-  }
+    display: inline-block; /* Ensures it behaves like a block for background clip */
+}
 
-/* Apply custom color classes in light mode */
-.text-primary {
-    @apply text-white;
-  }
-  
-  /* Apply custom color classes in dark mode */
-  .dark .text-primary {
+/* Apply custom color classes in dark mode */
+.dark .text-primary {
     @apply text-black;
-  }
+}

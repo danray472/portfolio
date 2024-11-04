@@ -1,25 +1,64 @@
 import React from 'react';
-import { FaWhatsapp, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaWhatsapp, FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <div className='p-5 flex justify-between items-center mx-auto bg-black w-full rounded-lg'>
-      <div className='bg-gray-600 flex items-center justify-between w-full px-3 rounded-sm'>
-      <span className='text-white'>M. Dan</span>
-      <div className='flex gap-4'>
-        <a href='https://wa.me/254739798820' target='_blank' rel='noopener noreferrer' className='text-white'>
-          <FaWhatsapp size={24} />
-        </a>
-        <a href='https://github.com/danray472' target='_blank' rel='noopener noreferrer' className='text-white'>
-          <FaGithub size={24} />
-        </a>
-        <a href='https://linkedin.com/in/dan-ray-b5695a241/' target='_blank' rel='noopener noreferrer' className='text-white'>
-          <FaLinkedin size={24} />
-        </a>
+    <footer className='bg-gray-900 text-white w-full py-10 px-5'>
+      <div className='container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8'>
+        
+        {/* About Section */}
+        <div className='space-y-3'>
+          <h2 className='text-2xl font-semibold'>M. Dan</h2>
+          <p className='text-gray-300'>
+            Full-stack software developer with a passion for crafting clean, efficient code and modern web and mobile applications.
+          </p>
+        </div>
+        
+        {/* Quick Links */}
+        <div className='space-y-3'>
+          <h3 className='text-xl font-semibold'>Quick Links</h3>
+          <ul className='space-y-2 text-gray-400'>
+            <li><a href='#about' className='hover:text-white'>About</a></li>
+            <li><a href='#skills' className='hover:text-white'>Skills</a></li>
+            <li><a href='#projects' className='hover:text-white'>Projects</a></li>
+            <li><a href='#contact' className='hover:text-white'>Contact</a></li>
+          </ul>
+        </div>
+        
+        {/* Contact Info */}
+        <div className='space-y-3'>
+          <h3 className='text-xl font-semibold'>Contact Info</h3>
+          <p className='text-gray-400'>danray472@gmail.com</p>
+          <p className='text-gray-400'>#SoftwareEngineer2024</p>
+          <p className='text-gray-400'>Nairobi, Kenya</p>
+        </div>
+        
+        {/* Social Media */}
+        <div className='space-y-3'>
+          <h3 className='text-xl font-semibold'>Connect</h3>
+          <div className='flex gap-4'>
+            <a href='https://wa.me/254705756500' target='_blank' rel='noopener noreferrer' className='text-white hover:text-green-500'>
+              <FaWhatsapp size={24} />
+            </a>
+            <a href='https://github.com/danray472' target='_blank' rel='noopener noreferrer' className='text-white hover:text-gray-500'>
+              <FaGithub size={24} />
+            </a>
+            <a href='https://www.linkedin.com/in/dan-b5695a241/' target='_blank' rel='noopener noreferrer' className='text-white hover:text-blue-400'>
+              <FaLinkedin size={24} />
+            </a>
+            <a href='mailto:danray472@gmail.com' target='_blank' rel='noopener noreferrer' className='text-white hover:text-red-500'>
+              <FaEnvelope size={24} />
+            </a>
+          </div>
+        </div>
+
       </div>
-      <p className='bg-gray-600 text-white'>danray472@gmail.com <br /> #SoftwareEngineer2024</p>
-    </div>
-    </div>
+      
+      {/* Bottom Section */}
+      <div className='text-center text-gray-500 mt-8 text-sm'>
+        &copy; {new Date().getFullYear()} M. Dan. All Rights Reserved.
+      </div>
+    </footer>
   );
 };
 
