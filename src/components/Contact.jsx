@@ -3,16 +3,18 @@ import React from 'react'
 const Contact = () => {
   return (
     <div id="contact" className='max-w-[1200px] mx-auto sm:py-py-20 p-5'>
-     <div className='text-center'>
-      <h2 className='text-4x1 font-bold leading-tight font-serif gradient-text'>Contact me</h2>
-     </div>
+   
    
    <div className=' mx-auto'>
 
         <div class="mt-6 primary-color w-[100%] rounded-md">
             <div class="p-10">
 
-            <form action="https://getform.io/f/lbjkqyra" method="POST">
+            <form action="https://getform.io/f/bwnndrla" method="POST">
+  <div className='text-center'>
+    <h2 className='pb-8 text-4xl font-bold leading-tight font-serif'>Contact Me</h2>
+  
+  </div>
               <div class="grid grid-col-1 sm:grid-col-2 gap-x-5 gap-y-4">
                 <div>
                   <div class="mt-2.5">
@@ -40,7 +42,7 @@ const Contact = () => {
 
               <div class=" mt-5">
                   <button type="submit"
-                        class="text-x1 w-[120px] ml-[40%] bg-black p-4 mt-2 rounded-lg hover:bg-gray-600 font-extrabold text-white color rounded-m border-white">
+                        class="text-xl w-[120px] ml-[40%] bg-white border-2 border-gray-300 p-4 mt-2 rounded-lg hover:bg-gray-600 hover:text-white font-extrabold text-gray-800 transition-colors duration-200">
                           Submit
                         </button>
               </div>

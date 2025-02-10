@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className='bg-gray-900 text-white w-full py-10 px-5'>
       <div className='container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8'>
         
-        {/* About Section */}
+        
         <div className='space-y-3'>
           <h2 className='text-2xl font-semibold'>M. Dan</h2>
           <p className='text-gray-300'>
@@ -14,7 +14,6 @@ const Footer = () => {
           </p>
         </div>
         
-        {/* Quick Links */}
         <div className='space-y-3'>
           <h3 className='text-xl font-semibold'>Quick Links</h3>
           <ul className='space-y-2 text-gray-400'>
@@ -25,15 +24,15 @@ const Footer = () => {
           </ul>
         </div>
         
-        {/* Contact Info */}
+        
         <div className='space-y-3'>
           <h3 className='text-xl font-semibold'>Contact Info</h3>
-          <p className='text-gray-400'>danray472@gmail.com</p>
+          <p className='text-gray-400'>dancanfullstackdev@gmail.com</p>
           <p className='text-gray-400'>#SoftwareEngineer2024</p>
           <p className='text-gray-400'>Nairobi, Kenya</p>
         </div>
         
-        {/* Social Media */}
+       
         <div className='space-y-3'>
           <h3 className='text-xl font-semibold'>Connect</h3>
           <div className='flex gap-4'>
@@ -46,7 +45,7 @@ const Footer = () => {
             <a href='https://www.linkedin.com/in/dan-b5695a241/' target='_blank' rel='noopener noreferrer' className='text-white hover:text-blue-400'>
               <FaLinkedin size={24} />
             </a>
-            <a href='mailto:danray472@gmail.com' target='_blank' rel='noopener noreferrer' className='text-white hover:text-red-500'>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=dancanfullstackdev@gmail.com" target='_blank' rel='noopener noreferrer' className='text-white hover:text-red-500'>
               <FaEnvelope size={24} />
             </a>
           </div>
@@ -54,7 +53,7 @@ const Footer = () => {
 
       </div>
       
-      {/* Bottom Section */}
+      
       <div className='text-center text-gray-500 mt-8 text-sm'>
         &copy; {new Date().getFullYear()} M. Dan. All Rights Reserved.
       </div>
