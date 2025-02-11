@@ -27,26 +27,27 @@ const About = () => {
           />
           
           <div className='col-span-2 px-5 my-auto'>
-            <h1 className='text-4xl sm:text-5xl lg:text-8xl font-extrabold'>
-              <span className='gradient-text font-medium font-mono italic'>Hi,</span>
-              <br />
-              <span className='gradient-text font-sans italic'>I'm a</span>
-              <br />
-              <div className="type-animation-container relative" style={{ height: '5rem' }}>
-                <TypeAnimation 
-                  className='gradient-text absolute'
-                  sequence={[
-                    "Software developer",
-                    1000,
-                    "Full-stack developer",
-                    5000,
-                  ]}
-                  wrapper="span"
-                  speed={30}
-                  repeat={Infinity} 
-                />
-              </div>
-            </h1>
+          <h1 className='text-4xl sm:text-5xl lg:text-8xl font-extrabold'>
+  <span className='gradient-text font-medium font-mono italic animate-wiggle'>Hello,</span>
+  <br />
+  <span className='gradient-text font-sans italic'>I'm a</span>
+  <br />
+  <div className="type-animation-container relative" style={{ height: '5rem' }}>
+    <TypeAnimation 
+      className='gradient-text absolute'
+      sequence={[
+        "Software Developer",
+        3000,
+        "Full-Stack Developer",
+        3000,
+      ]}
+      wrapper="span"
+      speed={30}
+      repeat={Infinity} 
+    />
+  </div>
+</h1>
+
           </div>
         </div>
 

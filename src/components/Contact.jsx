@@ -12,7 +12,7 @@ const Contact = () => {
 
             <form action="https://getform.io/f/bwnndrla" method="POST">
   <div className='text-center'>
-    <h2 className='pb-8 text-4xl font-bold leading-tight font-serif'>Contact Me</h2>
+    <h2 className='pb-8 text-4xl font-bold leading-tight font-serif animate-wiggle'>Contact Me</h2>
   
   </div>
               <div class="grid grid-col-1 sm:grid-col-2 gap-x-5 gap-y-4">

@@ -26,7 +26,7 @@ const Footer = () => {
         
         
         <div className='space-y-3'>
-          <h3 className='text-xl font-semibold'>Contact Info</h3>
+          <h3 className='text-xl font-semibold animate-pulse'>Contact Info</h3>
           <p className='text-gray-400'>dancanfullstackdev@gmail.com</p>
           <p className='text-gray-400'>#SoftwareEngineer2024</p>
           <p className='text-gray-400'>Nairobi, Kenya</p>
@@ -34,7 +34,7 @@ const Footer = () => {
         
        
         <div className='space-y-3'>
-          <h3 className='text-xl font-semibold'>Connect</h3>
+          <h3 className='text-xl font-semibold animate-bounce'>Connect</h3>
           <div className='flex gap-4'>
             <a href='https://wa.me/254705756500' target='_blank' rel='noopener noreferrer' className='text-white hover:text-green-500'>
               <FaWhatsapp size={24} />

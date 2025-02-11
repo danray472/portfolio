@@ -36,7 +36,7 @@ const Skills = () => {
       <h2 className="text-2xl font-bold mb-4 !text-center font-serif gradient-text">Skills</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
       <div className="glassy-card p-4 shadow-lg custom-shadow border border-white rounded-lg">
-          <img src={JavaScriptImage} alt="JavaScript" className="w-20 mx-auto animate-bounce rounded-md" />
+          <img src={JavaScriptImage} alt="JavaScript" className="w-20 mx-auto animate-wiggle rounded-md" />
           <h3 className="text-lg font-semibold mt-4 text-white">JavaScript</h3>
           <p className="text-sm text-black-600 mt-2 text-white">JavaScript stands out as my primary programming language, cultivated through extensive and regular application</p>
         </div>
@@ -51,7 +51,7 @@ const Skills = () => {
           <p className="text-sm text-black-600 mt-2 text-white">While HTML proficiency is inherent in my skill set, I have acquired it since the inception of my journey in software development</p>
         </div>
         <div className="glassy-card p-4 shadow-lg custom-shadow border border-white rounded-lg">
-          <img src={ReactImage} alt="React" className="w-20 mx-auto animate-bounce" />
+          <img src={ReactImage} alt="React" className="w-20 mx-auto animate-slideInLeft" />
           <h3 className="text-lg font-semibold mt-4 text-white">React</h3>
           <p className="text-sm text-black-600 mt-2 text-white">ReactJS stands as my preferred framework in web development, seamlessly extending its capabilities to mobile development through React Native</p>
         </div>
@@ -61,7 +61,7 @@ const Skills = () => {
           <p className="text-sm text-black-600 mt-2 text-white">MongoDB played an integral role in my MERN-stack projects, representing a cornerstone of my expertise due to its extensive utilization across various endeavors</p>
         </div>
         <div className="glassy-card p-4 shadow-lg custom-shadow border border-white rounded-lg">
-          <img src={sql} alt="SQL" className="w-20 mx-auto animate-bounce rounded-md" />
+          <img src={sql} alt="SQL" className="w-20 mx-auto animate-wiggle rounded-md" />
           <h3 className="text-lg font-semibold mt-4 text-white">SQL</h3>
           <p className="text-sm text-black-600 mt-2 text-white">While I may not employ it on a daily basis, this database system has remained the foremost choice for decades, retaining its preeminent position in the industry. Its enduring popularity and rich feature set underscore its indispensable role in software development</p>
         </div>
@@ -71,7 +71,7 @@ const Skills = () => {
           <p className="text-sm text-black-600 mt-2 text-white">Tailwind CSS stands as an indispensable tool in modern web development, characterized by its simplicity, efficiency, and remarkable speed</p>
         </div>
         <div className="glassy-card p-4 shadow-lg custom-shadow border border-white rounded-lg">
-          <img src={python} alt="Python" className="w-20 mx-auto animate-pulse rounded-md" />
+          <img src={python} alt="Python" className="w-20 mx-auto animate-slideInRight rounded-md" />
           <h3 className="text-lg font-semibold mt-4 text-white">Python</h3>
           <p className="text-sm text-black-600 mt-2 text-white">Python stands out as one of the most widely utilized programming languages over the years, owing to its versatility and robust capabilities that enable it to tackle a myriad of tasks. Its inclusion in my skill stack is inevitable, given its indispensable role in modern software development</p>
         </div>
@@ -81,7 +81,7 @@ const Skills = () => {
           <p className="text-sm text-black-600 mt-2 text-white">Proficient in C++ for system programming, game development, and performance-critical applications</p>
         </div>
         <div className="glassy-card p-4 shadow-lg custom-shadow border border-white rounded-lg">
-          <img src={npm} alt="NPM" className="w-20 mx-auto animate-bounce rounded-md" />
+          <img src={npm} alt="NPM" className="w-20 mx-auto animate-fadeIn rounded-md" />
           <h3 className="text-lg font-semibold mt-4 text-white">NPM</h3>
           <p className="text-sm text-black-600 mt-2 text-white">Proficient in using NPM for package management, facilitating efficient dependency management and project configuration</p>
         </div>
@@ -93,13 +93,13 @@ const Skills = () => {
 
 {/* New Skills */}
         <div className="glassy-card p-4 shadow-lg custom-shadow border border-white rounded-lg">
-          <img src={reactNative} alt="Python" className="w-20 mx-auto animate-pulse rounded-md" />
+          <img src={reactNative} alt="Python" className="w-20 mx-auto animate-slideInLeft rounded-md" />
           <h3 className="text-lg font-semibold mt-4 text-white">React Native</h3>
           <p className="text-sm text-black-600 mt-2 text-white">This powerful framework enables the creation of natively-rendered mobile applications for iOS and Android using a single codebase written in JavaScript. Its component-based architecture allows for efficient development and excellent performance across platforms</p>
         </div>
 
         <div className="glassy-card p-4 shadow-lg custom-shadow border border-white rounded-lg">
-          <img src={nextjs} alt="Python" className="w-20 mx-auto animate-bounce rounded-md" />
+          <img src={nextjs} alt="Python" className="w-20 mx-auto animate-zoomIn rounded-md" />
           <h3 className="text-lg font-semibold mt-4 text-white">NextJs</h3>
           <p className="text-sm text-black-600 mt-2 text-white">A robust framework for building server-side rendered and statically generated React applications, Next.jsoffers features like automatic code splitting, optimized performance, and built-in API routes. It simplifies the development process while enhancing the scalability of web applications</p>
         </div>
