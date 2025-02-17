@@ -6,13 +6,7 @@ import recipeApp from '../assets/rcm-college.png';
 
 const Projects = () => {
   const projects = [
-    {
-      title: "In-room Dining Website",
-      description: "Airbnb in-room dining is a technological app that bringings excellent dining experience on airbnb.",
-      image: inroomDining,
-      githubLink: "https://github.com/danray472/in-roomDining/tree/master",
-      rendaLink: "https://inroomdining.co.ke"
-    },
+ 
     {
       title: "Electronic Repair Shop Management System",
       description: "This project was centered around management systems, with a particular focus on the operations of an electronics repair shop.",
@@ -26,6 +20,13 @@ const Projects = () => {
       image: recipeApp,
       githubLink: "https://github.com/danray472/client-acam-proj",
       rendaLink: "client-acam-proj-3medkvc72-dans-projects-fa718ab9.vercel.app"
+    },
+    {
+      title: "In-room Dining Website",
+      description: "Airbnb in-room dining is a technological app that bringings excellent dining experience on airbnb.",
+      image: inroomDining,
+      githubLink: "https://github.com/danray472/in-roomDining/tree/master",
+      rendaLink: "https://inroomdining.co.ke"
     }
   ];
 

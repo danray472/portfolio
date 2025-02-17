@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faLaptopCode, faProjectDiagram, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import logo from "../assets/logo.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -46,11 +47,13 @@ const Navbar = () => {
           : 'relative bg-transparent h-[100px] text-2xl text-white'
       } top-0 left-0 w-full z-50 flex justify-between items-center transition-all duration-300`}
     >
-   <h1 className='text-2xl sm:text-4xl md:text-5xl font-bold mx-3 sm:ml-[10px] md:ml-[80px] gradient-text text-color'>
-  M. Dan
-</h1>
+      <div className="flex items-center mx-3 sm:ml-[10px] md:ml-[80px]">
+      <img src={logo} alt="Logo" className="h-8 w-8 mr-2 sm:mr-4 sm:h-14 sm:w-14 rounded-md" />
 
-
+        <h1 className='text-2xl sm:text-4xl md:text-5xl font-bold gradient-text text-color'>
+          M. Dan
+        </h1>
+      </div>
 
       <div className="flex items-center">
         <div onClick={handleNav} className='block md:hidden mr-4'>

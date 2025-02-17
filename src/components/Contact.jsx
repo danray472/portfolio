@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -8,6 +8,30 @@ const Contact = () => {
   });
 
   const [errors, setErrors] = useState({});
+  const contactHeadingRef = useRef(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('animate-slideInLeft');
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+
+    if (contactHeadingRef.current) {
+      observer.observe(contactHeadingRef.current);
+    }
+
+    return () => {
+      if (contactHeadingRef.current) {
+        observer.unobserve(contactHeadingRef.current);
+      }
+    };
+  }, []);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -42,7 +66,9 @@ const Contact = () => {
           <div className="p-10">
             <form action="https://getform.io/f/bwnndrla" method="POST" onSubmit={handleSubmit}>
               <div className='text-center'>
-                <h2 className='pb-8 text-4xl font-bold leading-tight font-serif animate-wiggle'>Contact Me</h2>
+                <h2 ref={contactHeadingRef} className='pb-8 text-4xl font-bold leading-tight font-serif'>
+                  Contact Me
+                </h2>
               </div>
               <div className="grid grid-col-1 sm:grid-col-2 gap-x-5 gap-y-4">
                 <div>

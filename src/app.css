@@ -38,6 +38,21 @@ body {
     color: rgba(255, 255, 255, 0.9);
   }
 
+
+  @keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .animate-slideInLeft {
+    animation: slideInLeft 2s ease-in-out forwards;
+  }
+  
+
   
   
   

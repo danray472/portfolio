@@ -68,6 +68,7 @@ module.exports = {
           '20%, 40%, 60%, 80%': { transform: 'translateX(10px)' },
         },
       },
+      
     },
   },
   plugins: [],
