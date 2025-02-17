@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5317a605.css",
-    "main.js": "/portfolio/static/js/main.64152ab1.js",
+    "main.css": "/portfolio/static/css/main.58cc75e1.css",
+    "main.js": "/portfolio/static/js/main.07bb1e76.js",
     "static/media/eletronicShop.jpg": "/portfolio/static/media/eletronicShop.e14e719b8c6eff503e66.jpg",
     "static/media/rcm-college.png": "/portfolio/static/media/rcm-college.8abd820348a338366aa5.png",
     "static/media/networking.jpg": "/portfolio/static/media/networking.5b21f43ca2900e101849.jpg",
@@ -16,16 +16,17 @@
     "static/media/nextjs.png": "/portfolio/static/media/nextjs.e44563251250998c64fe.png",
     "static/media/html.png": "/portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
     "static/media/tailwind.png": "/portfolio/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/logo.png": "/portfolio/static/media/logo.04b49f82dc50f2832378.png",
     "static/media/css.png": "/portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/firebase.png": "/portfolio/static/media/firebase.137c776d0b371617174a.png",
     "static/media/javascript.png": "/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "static/media/react.ico": "/portfolio/static/media/react.4fe75d5f9adb18067b85.ico",
     "index.html": "/portfolio/index.html",
-    "main.5317a605.css.map": "/portfolio/static/css/main.5317a605.css.map",
-    "main.64152ab1.js.map": "/portfolio/static/js/main.64152ab1.js.map"
+    "main.58cc75e1.css.map": "/portfolio/static/css/main.58cc75e1.css.map",
+    "main.07bb1e76.js.map": "/portfolio/static/js/main.07bb1e76.js.map"
   },
   "entrypoints": [
-    "static/css/main.5317a605.css",
-    "static/js/main.64152ab1.js"
+    "static/css/main.58cc75e1.css",
+    "static/js/main.07bb1e76.js"
   ]
 }
