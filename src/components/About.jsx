@@ -62,7 +62,7 @@ const About = () => {
 
             Beyond development, I have honed skills in cybersecurity and networking, exemplified by earning the Cisco CCNA certification. This expertise ensures that the solutions I deliver are not only functional but also secure and robust.
 
-            Throughout my career, I have contributed to numerous projects, delivering both mobile and web applications for various clients. My passion for continuous learning and growth drives me to excel in collaborative environments that value effective communication and teamwork. I am committed to pushing boundaries and exceeding expectations. Let’s bring transformative ideas to life together.
+            Throughout my career, I have contributed to numerous projects, delivering both mobile and web applications for various clients. My passion for continuous learning and growth drives me to excel in collaborative environments that value effective communication and teamwork. I am committed to pushing boundaries and exceeding expectations. Let’s bring transformative ideas to life together!.
           </p>
         </div>
 
