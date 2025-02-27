@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.58cc75e1.css",
-    "main.js": "/portfolio/static/js/main.aaec05b8.js",
+    "main.js": "/portfolio/static/js/main.f680201b.js",
+    "static/media/portfolio.png": "/portfolio/static/media/portfolio.2590f61de28950c705fd.png",
     "static/media/eletronicShop.jpg": "/portfolio/static/media/eletronicShop.e14e719b8c6eff503e66.jpg",
     "static/media/rcm-college.png": "/portfolio/static/media/rcm-college.8abd820348a338366aa5.png",
     "static/media/networking.jpg": "/portfolio/static/media/networking.5b21f43ca2900e101849.jpg",
@@ -23,10 +24,10 @@
     "static/media/react.ico": "/portfolio/static/media/react.4fe75d5f9adb18067b85.ico",
     "index.html": "/portfolio/index.html",
     "main.58cc75e1.css.map": "/portfolio/static/css/main.58cc75e1.css.map",
-    "main.aaec05b8.js.map": "/portfolio/static/js/main.aaec05b8.js.map"
+    "main.f680201b.js.map": "/portfolio/static/js/main.f680201b.js.map"
   },
   "entrypoints": [
     "static/css/main.58cc75e1.css",
-    "static/js/main.aaec05b8.js"
+    "static/js/main.f680201b.js"
   ]
 }
