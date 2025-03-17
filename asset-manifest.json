@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.58cc75e1.css",
-    "main.js": "/portfolio/static/js/main.9fd0bdd1.js",
+    "main.js": "/portfolio/static/js/main.d9ba77d0.js",
     "static/media/portfolio.png": "/portfolio/static/media/portfolio.2590f61de28950c705fd.png",
     "static/media/eletronicShop.jpg": "/portfolio/static/media/eletronicShop.e14e719b8c6eff503e66.jpg",
     "static/media/bsrHospital.png": "/portfolio/static/media/bsrHospital.b92d8a42e502204b2aa6.png",
@@ -25,10 +25,10 @@
     "static/media/react.ico": "/portfolio/static/media/react.4fe75d5f9adb18067b85.ico",
     "index.html": "/portfolio/index.html",
     "main.58cc75e1.css.map": "/portfolio/static/css/main.58cc75e1.css.map",
-    "main.9fd0bdd1.js.map": "/portfolio/static/js/main.9fd0bdd1.js.map"
+    "main.d9ba77d0.js.map": "/portfolio/static/js/main.d9ba77d0.js.map"
   },
   "entrypoints": [
     "static/css/main.58cc75e1.css",
-    "static/js/main.9fd0bdd1.js"
+    "static/js/main.d9ba77d0.js"
   ]
 }
