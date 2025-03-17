@@ -3,6 +3,8 @@ import { FaGithub } from 'react-icons/fa';
 import inroomDining from '../assets/inroomDining.png';
 import electronicShopImage from '../assets/eletronicShop.jpg';
 import recipeApp from '../assets/rcm-college.png';
+import portfolio from '../assets/portfolio.png';
+import bsrHospital from '../assets/bsrHospital.png';
 
 const Projects = () => {
   const projects = [
@@ -27,6 +29,20 @@ const Projects = () => {
       image: inroomDining,
       githubLink: "https://github.com/danray472/in-roomDining/tree/master",
       rendaLink: "https://inroomdining.co.ke"
+    },
+    {
+      title: "Stylish Portfolio",
+      description: "Magical feeling portfolio using wizard design look and feel.",
+      image: portfolio,
+      githubLink: "https://github.com/danray472/portfolio-next",
+      rendaLink: "https://next-portfolio-bice-phi.vercel.app/"
+    },
+    {
+      title: "Hospital Website",
+      description: "I developed the website for this hospital based in Nairobi and the client has been using it since to advertise the hospital online.",
+      image: bsrHospital,
+      githubLink: "https://github.com/danray472/bsr-hospital",
+      rendaLink: "https://bsr-hospital.vercel.app/"
     }
   ];
 

@@ -68,7 +68,7 @@ const About = () => {
 
         <div className='flex justify-center'>
           <a 
-            href="CV_v3.pdf" 
+            href="CV_v6.pdf" 
             download="Resume_dancan-Developer.pdf" 
             onClick={handleDownloadCV} 
             className='lg:mx-4 px-4 py-2 md:px-6 md:py-3 rounded-xl mr-2 bg-gradient-to-br from-orange-500 to-pink-500'
