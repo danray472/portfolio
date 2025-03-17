@@ -41,29 +41,29 @@ const Skills = () => {
           <p className="text-sm text-black-600 mt-2 text-white">JavaScript stands out as my primary programming language, cultivated through extensive and regular application</p>
         </div>
         <div className="glassy-card p-4 shadow-lg custom-shadow border border-white rounded-lg">
-          <img src={CSSImage} alt="CSS" className="w-20 mx-auto " />
-          <h3 className="text-lg font-semibold mt-4 text-white">CSS</h3>
-          <p className="text-sm text-black-600 mt-2 text-white">CSS serves as an indispensable tool utilized by developers and software engineers, constituting a fundamental component of software development processes</p>
-        </div>
-        <div className="glassy-card p-4 shadow-lg custom-shadow border border-white rounded-lg">
-          <img src={HTMLImage} alt="HTML" className="w-20 mx-auto " />
-          <h3 className="text-lg font-semibold mt-4 text-white">HTML</h3>
-          <p className="text-sm text-black-600 mt-2 text-white">While HTML proficiency is inherent in my skill set, I have acquired it since the inception of my journey in software development</p>
-        </div>
-        <div className="glassy-card p-4 shadow-lg custom-shadow border border-white rounded-lg">
           <img src={ReactImage} alt="React" className="w-20 mx-auto " />
           <h3 className="text-lg font-semibold mt-4 text-white">React</h3>
           <p className="text-sm text-black-600 mt-2 text-white">ReactJS stands as my preferred framework in web development, seamlessly extending its capabilities to mobile development through React Native</p>
         </div>
         <div className="glassy-card p-4 shadow-lg custom-shadow border border-white rounded-lg">
+          <img src={nextjs} alt="Python" className="w-20 mx-auto  rounded-md" />
+          <h3 className="text-lg font-semibold mt-4 text-white">NextJs</h3>
+          <p className="text-sm text-black-600 mt-2 text-white">A robust framework for building server-side rendered and statically generated React applications, Next.jsoffers features like automatic code splitting, optimized performance, and built-in API routes. It simplifies the development process while enhancing the scalability of web applications</p>
+        </div>
+        <div className="glassy-card p-4 shadow-lg custom-shadow border border-white rounded-lg">
+          <img src={firebase} alt="Python" className="w-20 mx-auto  rounded-md" />
+          <h3 className="text-lg font-semibold mt-4 text-white">Firebase</h3>
+          <p className="text-sm text-black-600 mt-2 text-white">Google's mobile and web application development platform, Firebase provides a suite of tools and services, such as real-time database, authentication, and cloud storage. It helps developers build high-quality apps quickly by handling backend infrastructure and offering seamless integration with other Google services</p>
+        </div>
+        <div className="glassy-card p-4 shadow-lg custom-shadow border border-white rounded-lg">
+          <img src={reactNative} alt="Python" className="w-20 mx-auto  rounded-md" />
+          <h3 className="text-lg font-semibold mt-4 text-white">React Native</h3>
+          <p className="text-sm text-black-600 mt-2 text-white">This powerful framework enables the creation of natively-rendered mobile applications for iOS and Android using a single codebase written in JavaScript. Its component-based architecture allows for efficient development and excellent performance across platforms</p>
+        </div>
+        <div className="glassy-card p-4 shadow-lg custom-shadow border border-white rounded-lg">
           <img src={mongoDB} alt="mongoDB" className="w-20 mx-auto  rounded-md" />
           <h3 className="text-lg font-semibold mt-4 text-white">mongoDB</h3>
           <p className="text-sm text-black-600 mt-2 text-white">MongoDB played an integral role in my MERN-stack projects, representing a cornerstone of my expertise due to its extensive utilization across various endeavors</p>
-        </div>
-        <div className="glassy-card p-4 shadow-lg custom-shadow border border-white rounded-lg">
-          <img src={sql} alt="SQL" className="w-20 mx-auto rounded-md" />
-          <h3 className="text-lg font-semibold mt-4 text-white">SQL</h3>
-          <p className="text-sm text-black-600 mt-2 text-white">While I may not employ it on a daily basis, this database system has remained the foremost choice for decades, retaining its preeminent position in the industry. Its enduring popularity and rich feature set underscore its indispensable role in software development</p>
         </div>
         <div className="glassy-card p-4 shadow-lg custom-shadow border border-white rounded-lg">
           <img src={tailwind} alt="Tailwind" className="w-20 mx-auto " />
@@ -90,28 +90,21 @@ const Skills = () => {
           <h3 className="text-lg font-semibold mt-4 text-white">PHP</h3>
           <p className="text-sm text-black-600 mt-2 text-white">Experienced in using PHP for server-side scripting and dynamic web development</p>
         </div>
-
-{/* New Skills */}
         <div className="glassy-card p-4 shadow-lg custom-shadow border border-white rounded-lg">
-          <img src={reactNative} alt="Python" className="w-20 mx-auto  rounded-md" />
-          <h3 className="text-lg font-semibold mt-4 text-white">React Native</h3>
-          <p className="text-sm text-black-600 mt-2 text-white">This powerful framework enables the creation of natively-rendered mobile applications for iOS and Android using a single codebase written in JavaScript. Its component-based architecture allows for efficient development and excellent performance across platforms</p>
+          <img src={sql} alt="SQL" className="w-20 mx-auto rounded-md" />
+          <h3 className="text-lg font-semibold mt-4 text-white">SQL</h3>
+          <p className="text-sm text-black-600 mt-2 text-white">While I may not employ it on a daily basis, this database system has remained the foremost choice for decades, retaining its preeminent position in the industry. Its enduring popularity and rich feature set underscore its indispensable role in software development</p>
         </div>
-
         <div className="glassy-card p-4 shadow-lg custom-shadow border border-white rounded-lg">
-          <img src={nextjs} alt="Python" className="w-20 mx-auto  rounded-md" />
-          <h3 className="text-lg font-semibold mt-4 text-white">NextJs</h3>
-          <p className="text-sm text-black-600 mt-2 text-white">A robust framework for building server-side rendered and statically generated React applications, Next.jsoffers features like automatic code splitting, optimized performance, and built-in API routes. It simplifies the development process while enhancing the scalability of web applications</p>
+          <img src={CSSImage} alt="CSS" className="w-20 mx-auto " />
+          <h3 className="text-lg font-semibold mt-4 text-white">CSS</h3>
+          <p className="text-sm text-black-600 mt-2 text-white">CSS serves as an indispensable tool utilized by developers and software engineers, constituting a fundamental component of software development processes</p>
         </div>
-
         <div className="glassy-card p-4 shadow-lg custom-shadow border border-white rounded-lg">
-          <img src={firebase} alt="Python" className="w-20 mx-auto  rounded-md" />
-          <h3 className="text-lg font-semibold mt-4 text-white">Firebase</h3>
-          <p className="text-sm text-black-600 mt-2 text-white">Google's mobile and web application development platform, Firebase provides a suite of tools and services, such as real-time database, authentication, and cloud storage. It helps developers build high-quality apps quickly by handling backend infrastructure and offering seamless integration with other Google services</p>
+          <img src={HTMLImage} alt="HTML" className="w-20 mx-auto " />
+          <h3 className="text-lg font-semibold mt-4 text-white">HTML</h3>
+          <p className="text-sm text-black-600 mt-2 text-white">While HTML proficiency is inherent in my skill set, I have acquired it since the inception of my journey in software development</p>
         </div>
-
-
-
         <div className="glassy-card p-4 shadow-lg custom-shadow border border-white rounded-lg">
           <img src={networking} alt="Networking" className="w-30 mx-auto rounded-sm" />
           <h3 className="text-lg font-semibold mt-4 text-white">Computer Network</h3>
