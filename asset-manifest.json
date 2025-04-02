@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.58cc75e1.css",
-    "main.js": "/portfolio/static/js/main.d9ba77d0.js",
-    "static/media/portfolio.png": "/portfolio/static/media/portfolio.2590f61de28950c705fd.png",
-    "static/media/eletronicShop.jpg": "/portfolio/static/media/eletronicShop.e14e719b8c6eff503e66.jpg",
-    "static/media/bsrHospital.png": "/portfolio/static/media/bsrHospital.b92d8a42e502204b2aa6.png",
-    "static/media/rcm-college.png": "/portfolio/static/media/rcm-college.8abd820348a338366aa5.png",
+    "main.js": "/portfolio/static/js/main.e8c25122.js",
     "static/media/networking.jpg": "/portfolio/static/media/networking.5b21f43ca2900e101849.jpg",
-    "static/media/inroomDining.png": "/portfolio/static/media/inroomDining.28c4108c76aa6598fbd9.png",
     "static/media/cyberSecurity.jpg": "/portfolio/static/media/cyberSecurity.d9a9ab6a748229087285.jpg",
+    "static/media/portfolio.png": "/portfolio/static/media/portfolio.3c92474ec1845124e1a5.png",
+    "static/media/rcm-college.png": "/portfolio/static/media/rcm-college.78efb2826a9050989c82.png",
+    "static/media/bsrHospital.png": "/portfolio/static/media/bsrHospital.122b943f4ed34221c2b8.png",
     "static/media/background-img.jpg": "/portfolio/static/media/background-img.fcb85ce9a69a6bf9cef1.jpg",
     "static/media/myImage.jpeg": "/portfolio/static/media/myImage.ad830001847271a42c02.jpeg",
+    "static/media/inroomDining.png": "/portfolio/static/media/inroomDining.c9e6816dd9479f8bca2b.png",
     "static/media/timeManagement.png": "/portfolio/static/media/timeManagement.85db882564f80b83590d.png",
     "static/media/versionControl.jpg": "/portfolio/static/media/versionControl.31041410ba0d564a2ce1.jpg",
     "static/media/python.png": "/portfolio/static/media/python.9859e72b503f6212e340.png",
+    "static/media/eletronicShop.jpg": "/portfolio/static/media/eletronicShop.0c7c4b40665c9414e320.jpg",
     "static/media/reactNative.png": "/portfolio/static/media/reactNative.79e3accd079afc831164.png",
     "static/media/nextjs.png": "/portfolio/static/media/nextjs.e44563251250998c64fe.png",
+    "static/media/bookStore.png": "/portfolio/static/media/bookStore.34da430aa76abcaeab44.png",
     "static/media/html.png": "/portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
     "static/media/tailwind.png": "/portfolio/static/media/tailwind.e47ac876b8d4d0bba47a.png",
     "static/media/logo.png": "/portfolio/static/media/logo.04b49f82dc50f2832378.png",
@@ -25,10 +26,10 @@
     "static/media/react.ico": "/portfolio/static/media/react.4fe75d5f9adb18067b85.ico",
     "index.html": "/portfolio/index.html",
     "main.58cc75e1.css.map": "/portfolio/static/css/main.58cc75e1.css.map",
-    "main.d9ba77d0.js.map": "/portfolio/static/js/main.d9ba77d0.js.map"
+    "main.e8c25122.js.map": "/portfolio/static/js/main.e8c25122.js.map"
   },
   "entrypoints": [
     "static/css/main.58cc75e1.css",
-    "static/js/main.d9ba77d0.js"
+    "static/js/main.e8c25122.js"
   ]
 }
