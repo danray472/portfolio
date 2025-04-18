@@ -19,12 +19,12 @@ const About = () => {
         <h2 className="text-2xl font-mono italic font-bold mb-4">About Me</h2>
         
         <div className="flex flex-col md:flex-row items-center">
-          <img 
-            src={myImage} 
-            sizes={20}
-            alt="profile" 
-            className="w-full md:w-1/3 rounded-[30px]  mb-4 md:mb-0" 
-          />
+        <img 
+  src={myImage} 
+  alt="profile" 
+  className="w-40 h-50 md:w-52  md:h-52 rounded-[30px] mb-4 md:mb-0" 
+/>
+
           
           <div className='col-span-2 px-5 my-auto'>
           <h1 className='text-4xl sm:text-5xl lg:text-8xl font-extrabold'>

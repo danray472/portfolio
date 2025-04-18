@@ -5,6 +5,7 @@ import electronicShopImage from '../assets/eletronicShop.jpg';
 import recipeApp from '../assets/rcm-college.png';
 import portfolio from '../assets/portfolio.png';
 import bsrHospital from '../assets/bsrHospital.png';
+import bookStore from '../assets/bookStore.png';
 
 const Projects = () => {
   const projects = [
@@ -21,7 +22,7 @@ const Projects = () => {
       description: "I developed the website for this college based in Nairobi and the client has been using it since to advertise the school online.",
       image: recipeApp,
       githubLink: "https://github.com/danray472/client-acam-proj",
-      rendaLink: "client-acam-proj-3medkvc72-dans-projects-fa718ab9.vercel.app"
+      rendaLink: "https://client-acam-proj-3medkvc72-dans-projects-fa718ab9.vercel.app/"
     },
     {
       title: "In-room Dining Website",
@@ -43,6 +44,13 @@ const Projects = () => {
       image: bsrHospital,
       githubLink: "https://github.com/danray472/bsr-hospital",
       rendaLink: "https://bsr-hospital.vercel.app/"
+    },
+    {
+      title: "Book Management App",
+      description: "I developed the website for this hospital based in Nairobi and the client has been using it since to advertise the hospital online.",
+      image: bookStore,
+      githubLink: "https://github.com/danray472/MERN-bookStoreProj.git",
+      rendaLink: "https://mern-bookstoreproj-1.onrender.com/"
     }
   ];
 
