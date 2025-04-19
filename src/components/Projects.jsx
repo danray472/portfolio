@@ -22,7 +22,7 @@ const Projects = () => {
       description: "I developed the website for this college based in Nairobi and the client has been using it since to advertise the school online.",
       image: recipeApp,
       githubLink: "https://github.com/danray472/client-acam-proj",
-      rendaLink: "https://client-acam-proj-3medkvc72-dans-projects-fa718ab9.vercel.app/"
+      rendaLink: "https://danray472.github.io/client-acam-proj/"
     },
     {
       title: "In-room Dining Website",
