@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -8,7 +9,9 @@ const Contact = () => {
   });
 
   const [errors, setErrors] = useState({});
+  const [status, setStatus] = useState(''); // For feedback messages
   const contactHeadingRef = useRef(null);
+  const form = useRef(null);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -22,13 +25,14 @@ const Contact = () => {
       { threshold: 0.1 }
     );
 
-    if (contactHeadingRef.current) {
-      observer.observe(contactHeadingRef.current);
+    const currentRef = contactHeadingRef.current;
+    if (currentRef) {
+      observer.observe(currentRef);
     }
 
     return () => {
-      if (contactHeadingRef.current) {
-        observer.unobserve(contactHeadingRef.current);
+      if (currentRef) {
+        observer.unobserve(currentRef);
       }
     };
   }, []);
@@ -51,12 +55,30 @@ const Contact = () => {
     const formErrors = validateForm();
     if (Object.keys(formErrors).length > 0) {
       setErrors(formErrors);
-    } else {
-      setErrors({});
-      // Submit the form
-      const form = e.target;
-      form.submit();
+      return;
     }
+    setErrors({});
+    setStatus('Sending...');
+
+    // Create a reference to the form element
+    const formElement = document.querySelector('#contact-form');
+    
+    // Your EmailJS Service ID, Template ID, and Public Key
+    const serviceID = 'service_zfszc8e';
+    const templateID = 'template_2uu0c48';
+    const publicKey = 'xYxaRf_0yrxW_GecZ';
+    
+    // Use the sendForm method which is more reliable
+    emailjs.sendForm(serviceID, templateID, formElement, publicKey)
+      .then((response) => {
+        console.log('SUCCESS!', response.status, response.text);
+        setStatus('Message sent successfully!');
+        setFormData({ name: '', email: '', message: '' });
+      })
+      .catch((err) => {
+        console.log('FAILED...', err);
+        setStatus('Failed to send message: ' + err.text);
+      });
   };
 
   return (
@@ -64,11 +86,12 @@ const Contact = () => {
       <div className=' mx-auto'>
         <div className="mt-6 primary-color w-[100%] rounded-md">
           <div className="p-10">
-            <form action="https://getform.io/f/bwnndrla" method="POST" onSubmit={handleSubmit}>
+            <form id="contact-form" ref={form} onSubmit={handleSubmit}>
               <div className='text-center'>
                 <h2 ref={contactHeadingRef} className='pb-8 text-4xl font-bold leading-tight font-serif'>
                   Contact Me
                 </h2>
+                {status && <p className="text-white mt-2">{status}</p>}
               </div>
               <div className="grid grid-col-1 sm:grid-col-2 gap-x-5 gap-y-4">
                 <div>

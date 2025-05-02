@@ -4,10 +4,6 @@ import { TypeAnimation } from 'react-type-animation';
 import background from '../assets/background-img.jpg';
 
 const About = () => {
-  // Function to handle the download event
-  const handleDownloadCV = () => {
-    console.log('CV downloaded');
-  };
 
   return (
     <div 
@@ -68,9 +64,8 @@ const About = () => {
 
         <div className='flex justify-center'>
           <a 
-            href="CV_v7.pdf" 
-            download="Resume_dancan-Developer.pdf" 
-            onClick={handleDownloadCV} 
+            href="/portfolio/CV_v8.pdf" 
+            download="Dancan Ongong'o - Software Engineer Resume" 
             className='lg:mx-4 px-4 py-2 md:px-6 md:py-3 rounded-xl mr-2 bg-gradient-to-br from-orange-500 to-pink-500'
           >
             Download CV
