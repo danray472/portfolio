@@ -62,19 +62,30 @@ const About = () => {
           </p>
         </div>
 
-        <div className='flex justify-center'>
+        <div className='flex justify-center items-center gap-4'>
           <a 
-            href="/portfolio/CV_v8.pdf" 
+            href="/portfolio/Dancan Ongong'o CV_v1.2.pdf" 
             download="Dancan Ongong'o - Software Engineer Resume" 
-            className='lg:mx-4 px-4 py-2 md:px-6 md:py-3 rounded-xl mr-2 bg-gradient-to-br from-orange-500 to-pink-500'
+            className='px-4 py-2 md:px-6 md:py-3 rounded-xl bg-gradient-to-br from-orange-500 to-pink-500 text-white font-semibold flex items-center gap-2 hover:scale-105 duration-200 shadow-lg'
           >
-            Download CV
+            Download My CV
           </a>
           <a 
             href="#contact" 
-            className='lg:mx-32 px-4 py-2 md:px-6 md:py-3 rounded-xl bg-gradient-to-br from-orange-500 to-pink-500 hover:border-none'
+            className='px-4 py-2 md:px-6 md:py-3 rounded-xl bg-gradient-to-br from-orange-500 to-pink-500 text-white font-semibold flex items-center gap-2 hover:scale-105 duration-200 shadow-lg'
           >
             Contact Me
+          </a>
+          <a 
+            href="https://github.com/danray472" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className='px-4 py-2 md:px-6 md:py-3 rounded-xl bg-gray-900 text-white font-semibold flex items-center gap-2 hover:scale-105 duration-200 shadow-lg'
+            aria-label="GitHub Profile"
+          >
+            {/* GitHub SVG icon */}
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24" className="inline-block w-5 h-5 mr-2"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.207 11.387.6.113.793-.262.793-.582 0-.288-.012-1.243-.018-2.252-3.338.726-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.09-.745.083-.729.083-.729 1.205.085 1.84 1.237 1.84 1.237 1.07 1.834 2.807 1.304 3.492.997.108-.775.418-1.305.762-1.606-2.665-.304-5.467-1.332-5.467-5.932 0-1.31.469-2.382 1.236-3.222-.124-.303-.535-1.523.117-3.176 0 0 1.008-.322 3.3 1.23a11.5 11.5 0 013.003-.404c1.018.005 2.045.138 3.003.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.873.12 3.176.77.84 1.235 1.912 1.235 3.222 0 4.61-2.807 5.625-5.479 5.921.43.372.823 1.104.823 2.225 0 1.606-.015 2.898-.015 3.293 0 .322.192.699.799.58C20.565 21.796 24 17.298 24 12c0-6.63-5.37-12-12-12z"/></svg>
+            GitHub
           </a>
         </div>
       </div>
