@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.0a4f49d1.css",
-    "main.js": "/portfolio/static/js/main.abfa5911.js",
+    "main.js": "/portfolio/static/js/main.0c91caa1.js",
     "static/media/networking.jpg": "/portfolio/static/media/networking.5b21f43ca2900e101849.jpg",
     "static/media/cyberSecurity.jpg": "/portfolio/static/media/cyberSecurity.d9a9ab6a748229087285.jpg",
     "static/media/portfolio.png": "/portfolio/static/media/portfolio.3c92474ec1845124e1a5.png",
@@ -13,6 +13,7 @@
     "static/media/timeManagement.png": "/portfolio/static/media/timeManagement.85db882564f80b83590d.png",
     "static/media/versionControl.jpg": "/portfolio/static/media/versionControl.31041410ba0d564a2ce1.jpg",
     "static/media/python.png": "/portfolio/static/media/python.9859e72b503f6212e340.png",
+    "static/media/movieApp.jpeg": "/portfolio/static/media/movieApp.5d0b93da1a0f5033b902.jpeg",
     "static/media/eletronicShop.jpg": "/portfolio/static/media/eletronicShop.0c7c4b40665c9414e320.jpg",
     "static/media/reactNative.png": "/portfolio/static/media/reactNative.79e3accd079afc831164.png",
     "static/media/nextjs.png": "/portfolio/static/media/nextjs.e44563251250998c64fe.png",
@@ -26,10 +27,10 @@
     "static/media/react.ico": "/portfolio/static/media/react.4fe75d5f9adb18067b85.ico",
     "index.html": "/portfolio/index.html",
     "main.0a4f49d1.css.map": "/portfolio/static/css/main.0a4f49d1.css.map",
-    "main.abfa5911.js.map": "/portfolio/static/js/main.abfa5911.js.map"
+    "main.0c91caa1.js.map": "/portfolio/static/js/main.0c91caa1.js.map"
   },
   "entrypoints": [
     "static/css/main.0a4f49d1.css",
-    "static/js/main.abfa5911.js"
+    "static/js/main.0c91caa1.js"
   ]
 }
