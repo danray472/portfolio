@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaGithub } from 'react-icons/fa';
-import inroomDining from '../assets/inroomDining.png';
+import eComm from '../assets/e-commerce.png';
 import electronicShopImage from '../assets/eletronicShop.jpg';
 import recipeApp from '../assets/rcm-college.png';
 import portfolio from '../assets/portfolio.png';
@@ -33,11 +33,11 @@ const Projects = () => {
       rendaLink: "https://danray472.github.io/client-acam-proj/"
     },
     {
-      title: "In-room Dining Website",
-      description: "Airbnb in-room dining is a technological app that bringings excellent dining experience on airbnb.",
-      image: inroomDining,
-      githubLink: "https://github.com/danray472/in-roomDining/tree/master",
-      rendaLink: "https://inroomdining.co.ke"
+      title: "E-commerce Website",
+      description: "Ecommerce website built using Next.js and Tailwind CSS",
+      image: eComm,
+      githubLink: "https://github.com/danray472/e-commerce.git",
+      rendaLink: "https://ecommerce-nextjs-fullstack-24q3p8syu-dans-projects-fa718ab9.vercel.app/"
     },
     {
       title: "Stylish Portfolio",
