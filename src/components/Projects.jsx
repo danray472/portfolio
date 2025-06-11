@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaGithub } from 'react-icons/fa';
-import eComm from '../assets/e-commerce.png';
+import eComm from '../assets/eCommerce.png';
 import electronicShopImage from '../assets/eletronicShop.jpg';
 import recipeApp from '../assets/rcm-college.png';
 import portfolio from '../assets/portfolio.png';
@@ -37,7 +37,7 @@ const Projects = () => {
       description: "Ecommerce website built using Next.js and Tailwind CSS",
       image: eComm,
       githubLink: "https://github.com/danray472/e-commerce.git",
-      rendaLink: "https://ecommerce-nextjs-fullstack-24q3p8syu-dans-projects-fa718ab9.vercel.app/"
+      rendaLink: "https://ecommerce-nextjs-fullstack-app-kappa.vercel.app/"
     },
     {
       title: "Stylish Portfolio",
