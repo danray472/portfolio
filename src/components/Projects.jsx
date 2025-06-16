@@ -7,10 +7,19 @@ import portfolio from '../assets/portfolio.png';
 import bsrHospital from '../assets/bsrHospital.png';
 import bookStore from '../assets/bookStore.png';
 import movieApp from '../assets/movieApp.jpeg';
+import Library from '../assets/Library.png';
+import inroom from '../assets/inroom.png';
 
 const Projects = () => {
   const projects = [
- 
+
+   {
+      title: "University Library Management System",
+      description: "A modern, full-featured library platform with an admin panel.",
+      image: Library,
+      githubLink: "https://github.com/danray472/university-library.git",
+      rendaLink: "https://university-library-amber.vercel.app"
+    },
     {
       title: "Electronic Repair Shop Management System",
       description: "This project was centered around management systems, with a particular focus on the operations of an electronics repair shop.",
@@ -59,6 +68,13 @@ const Projects = () => {
       image: bookStore,
       githubLink: "https://github.com/danray472/MERN-bookStoreProj.git",
       rendaLink: "https://mern-bookstoreproj-1.onrender.com/"
+    },
+    {
+      title: "In‑Room Dining Website",
+      description: "A sleek Airbnb-style in-room dining web app to browse menus and place orders online.",
+      image: inroom,
+      githubLink: "https://github.com/danray472/in-roomDining.git",
+      rendaLink: "https://danray472.github.io/in-roomDining/"
     }
   ];
 
