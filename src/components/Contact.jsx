@@ -82,7 +82,7 @@ const Contact = () => {
   };
 
   return (
-    <div id="contact" className='max-w-[1200px] mx-auto sm:py-py-20 p-5'>
+    <div id="contact" className='max-w-[1200px] mx-auto my-8 sm:py-py-20 p-5'>
       <div className=' mx-auto'>
         <div className="mt-6 primary-color w-[100%] rounded-md">
           <div className="p-10">

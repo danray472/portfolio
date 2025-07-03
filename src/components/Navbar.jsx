@@ -46,7 +46,7 @@ const Navbar = () => {
     <div
       className={`${
         scrolled
-          ? 'fixed bg-white/20 backdrop-blur-xl shadow-lg h-[70px] text-lg'
+          ? 'fixed bg-black/0 backdrop-blur-xl shadow-lg h-[70px] text-lg text-rose-50'
           : 'relative bg-transparent h-[100px] text-2xl text-white'
       } top-0 left-0 w-full z-50 flex justify-between items-center transition-all duration-300`}
     >

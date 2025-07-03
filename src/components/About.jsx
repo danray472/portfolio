@@ -13,8 +13,8 @@ const About = () => {
       className="relative bg-fixed bg-cover bg-center min-h-screen"
       style={{ backgroundImage: `url(${background})` }}
     >
-      <div className="container mx-auto p-8 bg-white/20 backdrop-blur-md rounded-lg shadow-lg">
-        <h2 className="text-2xl font-mono italic font-bold mb-4">About Me</h2>
+      <div className="container mx-auto p-8 bg-black/5 backdrop-blur-md rounded-lg shadow-lg">
+        <h2 className="text-2xl font-mono italic font-bold mb-4 text-rose-50">About Me</h2>
         
         <div className="flex flex-col md:flex-row items-center">
         <img 
@@ -26,8 +26,8 @@ const About = () => {
           
           <div className='col-span-2 px-5 my-auto'>
           <h1 className='text-4xl sm:text-5xl lg:text-8xl font-extrabold'>
-          <span className='text-xl sm:text-xl md:text-6xl font-light italic' style={{ fontFamily: 'Caveat, cursive' }}>
-Hello, I'm developer Dancan, a dedicated Full-Stack Developer with a passion for crafting innovative solutions on both mobile and web applications. Welcome to my portfolio!
+          <span className='text-xl text-rose-50 sm:text-xl md:text-6xl font-light italic' style={{ fontFamily: 'Caveat, cursive' }}>
+          Hello! I'm Dancan — a Full-Stack Developer passionate about crafting innovative, secure, and scalable web and mobile applications. Welcome to my portfolio, where clean code meets thoughtful design and security best practices.
 </span>
 
 
@@ -54,13 +54,17 @@ Hello, I'm developer Dancan, a dedicated Full-Stack Developer with a passion for
       </div>
 
       <div className="about-info mt-0 sm:mt-32 md:mt-40 lg:mt-48">
-        <p className="text-base sm:text-lg my-6 lg:text-xl font-sans italic">
-          <strong>Dancan Malongo Ongong'o. | Full-Stack Developer</strong><br />
-          As a dedicated Full-Stack Developer proficient in both web and mobile development, I specialize in crafting high-quality, innovative solutions tailored to client needs. My academic journey in software engineering at Zetech University provided me with a solid foundation in programming and problem-solving. In web development, I leverage frameworks like React Native and Next.js to build dynamic, responsive applications. For mobile platforms, I utilize React Native to create seamless cross-platform apps.
+        <p className="text-base text-rose-50 sm:text-lg my-6 lg:text-xl font-sans italic">
+          <strong>Dancan Malongo Ongong'o | Full-Stack Developer 👨‍💻🔐</strong><br />
+          I’m a Full-Stack Developer with a strong foundation in software engineering and a passion for building secure, high-quality web and mobile applications.
 
-          Beyond development, I have honed skills in cybersecurity and networking, exemplified by earning the Cisco CCNA certification. This expertise ensures that the solutions I deliver are not only functional but also secure and robust.
+📚 While my academic journey at Zetech University provided the fundamentals, I’ve gone far beyond that—driven by curiosity and a desire to stay ahead. I’ve taught myself modern tools like React Native and Next.js, and continually explore new technologies to stay in sync with industry trends.
 
-          Throughout my career, I have contributed to numerous projects, delivering both mobile and web applications for various clients. My passion for continuous learning and growth drives me to excel in collaborative environments that value effective communication and teamwork. I am committed to pushing boundaries and exceeding expectations. Let's bring transformative ideas to life together!.
+🔐 Alongside development, I’ve built solid expertise in cybersecurity and networking, earning the Cisco CCNA certification. This background plays a key role in how I approach software — helping me develop applications that are not just functional and scalable, but secure by design.
+
+🚀 I’ve contributed to a range of client projects and thrive in collaborative teams that value clean code, innovation, and continuous learning.
+
+Let’s build something bold, secure, and impactful. 💡
         </p>
       </div>
 
