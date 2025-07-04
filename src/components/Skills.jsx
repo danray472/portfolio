@@ -214,11 +214,11 @@ const skills = [
 
 const Skills = () => {
   return (
-    <div className="mt-10 container mx-auto p-8 bg-transparent border border-white/20 backdrop-blur-lg shadow-lg rounded-lg" id="skills">
+    <div className="mt-10 container mx-auto p-8 bg-black/20 border border-white/10 backdrop-blur-lg shadow-lg rounded-lg" id="skills">
       <h2 className="text-2xl font-bold mb-4 !text-center font-serif gradient-text">Skills</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {skills.map((skill, idx) => (
-          <div key={idx} className="glassy-card p-4 shadow-lg custom-shadow border border-white rounded-lg">
+          <div key={idx} className="bg-black/0 p-4 shadow-lg custom-shadow border border-white/20 rounded-lg">
             <img src={skill.image} alt={skill.alt} className={skill.imgClass} />
             <h3 className="text-lg font-semibold mt-4 text-white">{skill.title}</h3>
             <p className="text-sm text-black-600 mt-2 text-white">{skill.description}</p>
