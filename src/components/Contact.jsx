@@ -52,24 +52,27 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+  
     const formErrors = validateForm();
     if (Object.keys(formErrors).length > 0) {
       setErrors(formErrors);
       return;
     }
+  
     setErrors({});
     setStatus('Sending...');
-
-    // Create a reference to the form element
-    const formElement = document.querySelector('#contact-form');
-    
-    // Your EmailJS Service ID, Template ID, and Public Key
+  
     const serviceID = 'service_zfszc8e';
     const templateID = 'template_2uu0c48';
     const publicKey = 'xYxaRf_0yrxW_GecZ';
-    
-    // Use the sendForm method which is more reliable
-    emailjs.sendForm(serviceID, templateID, formElement, publicKey)
+  
+    const templateParams = {
+      from_name: formData.name,     // 🟢 Match this with {{from_name}} in template
+      reply_to: formData.email,     // 🟢 Match this with {{reply_to}} in template
+      message: formData.message     // 🟢 You can add {{message}} to your template body
+    };
+  
+    emailjs.send(serviceID, templateID, templateParams, publicKey)
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
         setStatus('Message sent successfully!');
@@ -80,6 +83,7 @@ const Contact = () => {
         setStatus('Failed to send message: ' + err.text);
       });
   };
+  
 
   return (
     <div id="contact" className='max-w-[1200px] mx-auto my-8 sm:py-py-20 p-5'>
