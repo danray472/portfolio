@@ -8,20 +8,20 @@ import mongoDB from '../assets/mongoDB.jpeg';
 import sql from '../assets/sql.png';
 import tailwind from '../assets/tailwind.png';
 import python from '../assets/python.png';
-import networking from '../assets/networking.jpg';
-import security from '../assets/cyberSecurity.jpg';
+import networking from '../assets/networking.png';
+import security from '../assets/cyberSecurity.png';
 import apis from '../assets/apis.png';
-import authenticationAuthorization from '../assets/authenticationAuthorization.jpeg';
+import authenticationAuthorization from '../assets/authenticationAuthorization.png';
 import c from '../assets/c.png';
 import ciCd from '../assets/ciCd.png';
 import kali from '../assets/kali.png';
 import npm from '../assets/npm.png';
 import php from '../assets/php.png';
-import uiUx from '../assets/uiUx.jpeg';
-import versionControl from '../assets/versionControl.jpg';
+import uiUx from '../assets/uiUx.png';
+import versionControl from '../assets/versionControl.png';
 import communicationSkills from '../assets/communicationSkills.png';
-import problemSolving from '../assets/problemSolving.jpeg';
-import teamWork from '../assets/teamWork.jpeg';
+import problemSolving from '../assets/problemSolving.png';
+import teamWork from '../assets/teamWork.png';
 import reactNative from '../assets/reactNative.png';
 import nextjs from '../assets/nextjs.png';
 import firebase from '../assets/firebase.png';
@@ -218,7 +218,7 @@ const softSkills = skills.filter((s, idx) => idx >= skills.findIndex(s => s.titl
 const Skills = () => {
   return (
     <div className="mt-10 container mx-auto p-8 bg-black/20 border border-white/10 backdrop-blur-lg shadow-lg rounded-lg scroll-mt-20 lg:scroll-mt-[80px]" id="skills">
-      <h2 className="text-2xl font-bold mb-4 !text-center font-serif gradient-text">Skills</h2>
+      <h2 className="text-2xl font-bold mb-4 !text-center font-serif gradient-text">Professional Skills</h2>
       {/* Technical Skills */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
         {technicalSkills.map((skill, idx) => (
@@ -233,7 +233,7 @@ const Skills = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {softSkills.map((skill, idx) => (
           <div key={idx} className="rounded-lg overflow-hidden w-full max-w-xs mx-auto bg-black/0 p-4 shadow-lg custom-shadow border border-white/20">
-            <div className="w-full h-40 flex items-center justify-center bg-white/5 overflow-hidden">
+            <div className="w-full h-40 flex items-center justify-center  overflow-hidden">
   <img src={skill.image} alt={skill.alt} className="w-full h-full object-cover rounded-md" />
 </div>
             <div className="p-4">

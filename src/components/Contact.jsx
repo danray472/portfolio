@@ -4,6 +4,7 @@ import emailjs from '@emailjs/browser';
 const Contact = () => {
   const formRef = useRef(null);
   const contactHeadingRef = useRef(null);
+  const [submitting, setSubmitting] = useState(false);
   const [status, setStatus] = useState('');
 
   useEffect(() => {
@@ -33,6 +34,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setStatus('Sending...');
+    setSubmitting(true);
 
     const serviceID = 'service_zfszc8e';
     const templateID = 'template_2uu0c48';
@@ -43,10 +45,12 @@ const Contact = () => {
         console.log('SUCCESS!', response.status, response.text);
         setStatus('Message sent successfully!');
         formRef.current.reset();
+        setSubmitting(false);
       })
       .catch((err) => {
         console.log('FAILED...', err);
         setStatus('Failed to send message: ' + err.text);
+        setSubmitting(false);
       });
   };
 
@@ -97,9 +101,16 @@ const Contact = () => {
               <div className="mt-5">
                 <button
                   type="submit"
-                  className="text-xl w-[120px] ml-[40%] bg-white border-2 border-gray-300 p-4 mt-2 rounded-lg hover:bg-gray-600 hover:text-white font-extrabold text-gray-800 transition-colors duration-200"
+                  disabled={submitting}
+                  className={`text-xl w-[140px] ml-[40%] mt-2 p-4 rounded-lg font-extrabold transition-all duration-300 
+                    bg-gradient-to-r from-pink-500 via-yellow-400 to-pink-600 text-gray-800 shadow-lg 
+                    border-4 border-transparent 
+                    animate-pulse 
+                    focus:outline-none focus:ring-4 focus:ring-pink-400/40 
+                    hover:from-yellow-400 hover:to-pink-500 
+                    ${submitting ? 'opacity-60 cursor-not-allowed' : 'glow-button'}`}
                 >
-                  Submit
+                  {submitting ? 'Submitting...' : 'Submit'}
                 </button>
               </div>
             </form>
@@ -110,4 +121,11 @@ const Contact = () => {
   );
 };
 
+// Optional: Add a custom glow effect if you want even more attention
+// Add this CSS to your index.css or a global stylesheet:
+/*
+.glow-button {
+  box-shadow: 0 0 16px 4px #f472b6, 0 0 32px 8px #fde68a, 0 0 64px 16px #f472b6;
+}
+*/
 export default Contact;

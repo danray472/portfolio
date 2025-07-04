@@ -35,27 +35,62 @@ const About = () => {
 
           <br />
           <br />
-          <div className="type-animation-container relative overflow-hidden sm:whitespace-nowrap whitespace-normal" style={{ height: '6rem', width: '110%' }}>
-              <TypeAnimation 
-                className='gradient-text absolute'
-                sequence={[
-                  "Software Engineer",
-                  3000,
-                  "Full-Stack Developer",
-                  5000,
-                ]}
-                wrapper="span"
-                speed={30}
-                repeat={Infinity} 
-              />
-            </div>
+          <div className="type-animation-container flex items-center w-[110%] sm:whitespace-nowrap whitespace-normal min-h-[3.5rem]">
+  {/* Responsive animation: shorter titles on mobile, full on desktop */}
+<span className="block md:hidden flex items-center">
+  <TypeAnimation 
+    className='gradient-text text-4xl pb-2 pt-2'
+    sequence={[
+      "Junior Dev",
+      2500,
+      "",
+      700,
+      "Software Dev",
+      2500,
+      "",
+      700,
+      "Fullstack Dev",
+      2500,
+      "",
+      700,
+    ]}
+    wrapper="span"
+    speed={30}
+    repeat={Infinity} 
+  />
+  <span className="-ml-1 text-4xl text-rose-100 animate-pulse align-baseline">|</span>
+</span>
+<span className="hidden md:flex items-center">
+  <TypeAnimation 
+    className='gradient-text md:text-6xl lg:text-8xl'
+    sequence={[
+      "Junior Developer",
+      2500,
+      "",
+      700,
+      "Software Developer",
+      2500,
+      "",
+      700,
+      "Fullstack Developer",
+      2500,
+      "",
+      700,
+    ]}
+    wrapper="span"
+    speed={30}
+    repeat={Infinity} 
+  />
+  <span className="-ml-1 md:text-6xl lg:text-8xl text-rose-100 animate-pulse align-baseline">|</span>
+</span>
+</div>
         </h1>
         </div>
       </div>
 
       <div className="about-info mt-0 sm:mt-32 md:mt-40 lg:mt-48">
         <p className="text-base text-rose-50 sm:text-lg my-6 lg:text-xl font-sans italic">
-          <strong>Dancan Malongo Ongong'o | Full-Stack Developer 👨‍💻🔐</strong><br />
+          <strong>Dancan Malongo Ongong'o | Full-Stack Developer 👨‍💻</strong><br />
           I’m a Full-Stack Developer with a strong foundation in software engineering and a passion for building secure, high-quality web and mobile applications.
 
  While my academic journey at Zetech University provided the fundamentals, I’ve gone far beyond that—driven by curiosity and a desire to stay ahead. I’ve taught myself modern tools like React Native and Next.js, and continually explore new technologies to stay in sync with industry trends.

@@ -10,19 +10,20 @@ const Footer = () => {
         
         
         <div className='space-y-3'>
-          <h2 className='text-2xl font-semibold'>M. Dan</h2>
+          <h2 className='text-2xl font-semibold'>Dan.developer</h2>
           <p className='text-gray-300'>
             Full-stack software developer with a passion for crafting clean, efficient code and modern web and mobile applications.
           </p>
         </div>
         
         <div className='space-y-3'>
-          <h3 className='text-xl font-semibold'>Quick Links</h3>
+          <h3 className='text-xl font-semibold underline'>Quick Links</h3>
           <ul className='space-y-2 text-gray-400'>
-            <li><a href='#about' className='hover:text-white'>About</a></li>
-            <li><a href='#skills' className='hover:text-white'>Skills</a></li>
-            <li><a href='#projects' className='hover:text-white'>Projects</a></li>
-            <li><a href='#contact' className='hover:text-white'>Contact</a></li>
+            <li><a href='#about' className='hover:text-white underline'>About</a></li>
+            <li><a href='#skills' className='hover:text-white underline'>Skills</a></li>
+            <li><a href='#projects' className='hover:text-white underline'>Projects</a></li>
+            <li><a href='#contact' className='hover:text-white underline'>Contact</a></li>
+            <li><a href='/portfolio/cv.html' className='hover:text-white underline'>View My CV</a></li>
           </ul>
         </div>
         
@@ -30,7 +31,7 @@ const Footer = () => {
         <div className='space-y-3'>
           <h3 className='text-xl font-semibold animate-pulse'>Contact Info</h3>
           <p className='text-gray-400'>dancanfullstackdev@gmail.com</p>
-          <p className='text-gray-400'>#SoftwareEngineer2025</p>
+          <p className='text-gray-400'>#JuniorSoftwareEngineer2025</p>
           <p className='text-gray-400'>Nairobi, Kenya</p>
         </div>
         
@@ -56,8 +57,8 @@ const Footer = () => {
       </div>
       
       
-      <div className='text-center text-gray-500 mt-8 text-sm'>
-        &copy; {new Date().getFullYear()} M. Dan. All Rights Reserved.
+      <div className='text-center text-gray-500 mt-8 text-sm mb-8 md:mb-0'>
+        &copy; {new Date().getFullYear()} Dancan Malongo Ongong'o -developer All Rights Reserved.
       </div>
     </footer>
   );
