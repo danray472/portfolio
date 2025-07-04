@@ -111,23 +111,23 @@ const Navbar = () => {
       <nav className="lg:hidden fixed bottom-0 left-0 w-full z-50 flex justify-around items-center py-4 px-2 backdrop-blur-xl bg-white/5 border-t border-white/20 shadow-lg" style={{backdropFilter: 'blur(16px)'}}>
         <a href="#about" className={`flex flex-col items-center text-xs transition-all ${activeSection === 'about' ? 'text-[#f97316]' : 'text-white'}`}> 
           <FontAwesomeIcon icon={faUser} size="lg" />
-          <span>About</span>
+          <span className="font-bold">About</span>
         </a>
         <a href="#skills" className={`flex flex-col items-center text-xs transition-all ${activeSection === 'skills' ? 'text-[#f97316]' : 'text-white'}`}> 
           <FontAwesomeIcon icon={faLaptopCode} size="lg" />
-          <span>Skills</span>
+          <span className="font-bold">Skills</span>
         </a>
         <a href="#projects" className={`flex flex-col items-center text-xs transition-all ${activeSection === 'projects' ? 'text-[#f97316]' : 'text-white'}`}> 
           <FontAwesomeIcon icon={faProjectDiagram} size="lg" />
-          <span>Projects</span>
+          <span className="font-bold">Projects</span>
         </a>
         <a href="#contact" className={`flex flex-col items-center text-xs transition-all ${activeSection === 'contact' ? 'text-[#f97316]' : 'text-white'}`}> 
           <FontAwesomeIcon icon={faEnvelope} size="lg" />
-          <span>Contact</span>
+          <span className="font-bold">Contact</span>
         </a>
         <a href="/portfolio/cv.html" className={`flex flex-col items-center text-xs transition-all ${activeSection === 'cv' ? 'text-[#f97316]' : 'text-white'}`}> 
           <FontAwesomeIcon icon={faUser} size="lg" />
-          <span>CV</span>
+          <span className="font-bold">CV</span>
         </a>
       </nav>
     </>

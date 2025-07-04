@@ -70,7 +70,7 @@ const Contact = () => {
                     name="from_name"
                     placeholder="Name"
                     required
-                    className="bg-gray w-full px-4 py-4 border border-black-700 rounded-md focus:outline-none focus:border-pint-600"
+                    className="bg-black/40 backdrop-blur-sm w-full px-4 py-4  rounded-md focus:outline-dashed focus:border-pint-600 placeholder:text-white text-white"
                   />
                 </div>
                 <div className="mt-2.5">
@@ -79,7 +79,7 @@ const Contact = () => {
                     name="reply_to"
                     placeholder="Email address"
                     required
-                    className="bg-gray w-full px-4 py-4 border border-black-700 rounded-md focus:outline-none focus:border-pint-600"
+                    className="bg-black/40 backdrop-blur-sm w-full px-4 py-4  rounded-md focus:outline-dashed focus:border-pint-600 placeholder:text-white text-white"
                   />
                 </div>
               </div>
@@ -90,7 +90,7 @@ const Contact = () => {
                   placeholder="Message"
                   required
                   rows="4"
-                  className="bg-gray w-full px-4 py-4 border border-black-700 rounded-md focus:outline-none focus:border-pint-600"
+                  className="bg-black/40 backdrop-blur-sm w-full px-4 py-4  rounded-md focus:outline-dashed focus:border-pint-600 placeholder:text-white text-white"
                 ></textarea>
               </div>
 

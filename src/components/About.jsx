@@ -58,13 +58,13 @@ const About = () => {
           <strong>Dancan Malongo Ongong'o | Full-Stack Developer 👨‍💻🔐</strong><br />
           I’m a Full-Stack Developer with a strong foundation in software engineering and a passion for building secure, high-quality web and mobile applications.
 
-📚 While my academic journey at Zetech University provided the fundamentals, I’ve gone far beyond that—driven by curiosity and a desire to stay ahead. I’ve taught myself modern tools like React Native and Next.js, and continually explore new technologies to stay in sync with industry trends.
+ While my academic journey at Zetech University provided the fundamentals, I’ve gone far beyond that—driven by curiosity and a desire to stay ahead. I’ve taught myself modern tools like React Native and Next.js, and continually explore new technologies to stay in sync with industry trends.
 
-🔐 Alongside development, I’ve built solid expertise in cybersecurity and networking, earning the Cisco CCNA certification. This background plays a key role in how I approach software — helping me develop applications that are not just functional and scalable, but secure by design.
+ Alongside development, I’ve built solid expertise in cybersecurity and networking, earning the Cisco CCNA certification. This background plays a key role in how I approach software — helping me develop applications that are not just functional and scalable, but secure by design.
 
-🚀 I’ve contributed to a range of client projects and thrive in collaborative teams that value clean code, innovation, and continuous learning.
+ I’ve contributed to a range of client projects and thrive in collaborative teams that value clean code, innovation, and continuous learning.
 
-Let’s build something bold, secure, and impactful. 💡
+Let’s build something bold, secure, and impactful. 
         </p>
       </div>
 

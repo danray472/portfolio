@@ -131,42 +131,42 @@ const skills = [
     alt: 'Networking',
     title: 'Computer Network',
     description: 'Computer networking stands as a foundational skill requisite for any tech-related position, and I have diligently cultivated proficiency in this domain. Additionally, I pursued the CCNA certification to deepen my understanding of networking principles and practices',
-    imgClass: 'w-30 mx-auto rounded-sm',
+    imgClass: 'w-full h-32 object-contain p-4',
   },
   {
     image: security,
     alt: 'Cyber Security',
     title: 'Cyber Security',
     description: `In today's era of computer technology, computer security holds paramount importance. I have dedicated significant effort to enhancing my knowledge in cybersecurity, extensively studying various aspects of the field. Additionally, I have obtained certification in network security to further fortify my expertise in safeguarding digital assets against potential threats`,
-    imgClass: 'w-30 mx-auto p-0 m-0 rounded-sm',
+    imgClass: 'w-full h-32 object-contain p-4',
   },
   {
     image: apis,
     alt: 'RESTful APIs',
     title: 'RESTful APIs',
     description: 'Experienced in designing and consuming RESTful APIs to enable seamless communication between client and server applications',
-    imgClass: 'w-45 mx-auto',
+    imgClass: 'w-full h-32 object-contain p-4',
   },
   {
     image: authenticationAuthorization,
     alt: 'Authentication & Authorization',
     title: 'Authentication & Authorization',
     description: 'Proficient in implementing secure authentication and authorization mechanisms to safeguard user data and control access',
-    imgClass: 'w-30 mx-auto',
+    imgClass: 'w-full h-32 object-contain p-4',
   },
   {
     image: ciCd,
     alt: 'CI/CD',
     title: 'CI/CD',
     description: 'Experienced with CI/CD pipelines using GitHub Actions for automated testing and deployment',
-    imgClass: 'w-22 mx-auto',
+    imgClass: 'w-full h-32 object-contain p-4',
   },
   {
     image: kali,
     alt: 'Kali Linux',
     title: 'Kali Linux',
     description: 'Skilled in using Kali Linux for penetration testing and ethical hacking, providing hands-on experience with a wide range of security tools and techniques',
-    imgClass: 'w-30 mx-auto',
+    imgClass: 'w-full h-32 object-contain p-4',
   },
   {
     image: uiUx,
@@ -212,16 +212,33 @@ const skills = [
   },
 ];
 
+const technicalSkills = skills.filter(s => s.title !== 'Computer Network' && skills.indexOf(s) < skills.findIndex(s => s.title === 'Cyber Security'));
+const softSkills = skills.filter((s, idx) => idx >= skills.findIndex(s => s.title === 'Computer Network'));
+
 const Skills = () => {
   return (
     <div className="mt-10 container mx-auto p-8 bg-black/20 border border-white/10 backdrop-blur-lg shadow-lg rounded-lg scroll-mt-20 lg:scroll-mt-[80px]" id="skills">
       <h2 className="text-2xl font-bold mb-4 !text-center font-serif gradient-text">Skills</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-        {skills.map((skill, idx) => (
+      {/* Technical Skills */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+        {technicalSkills.map((skill, idx) => (
           <div key={idx} className="bg-black/0 p-4 shadow-lg custom-shadow border border-white/20 rounded-lg">
             <img src={skill.image} alt={skill.alt} className={skill.imgClass} />
             <h3 className="text-lg font-semibold mt-4 text-white">{skill.title}</h3>
             <p className="text-sm text-black-600 mt-2 text-white">{skill.description}</p>
+          </div>
+        ))}
+      </div>
+      {/* Soft Skills (styled like Projects) */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        {softSkills.map((skill, idx) => (
+          <div key={idx} className="rounded-lg overflow-hidden w-full max-w-xs mx-auto bg-black/0 p-4 shadow-lg custom-shadow border border-white/20">
+            <div className="w-full h-40 flex items-center justify-center bg-white/5 overflow-hidden">
+  <img src={skill.image} alt={skill.alt} className="w-full h-full object-cover rounded-md" />
+</div>
+            <div className="p-4">
+              <p className="text-sm text-white mb-2">{skill.description}</p>
+            </div>
           </div>
         ))}
       </div>
