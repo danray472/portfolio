@@ -10,10 +10,10 @@ const About = () => {
   return (
     <div 
       id="about"
-      className="relative bg-fixed bg-cover bg-center min-h-screen"
+      className="relative bg-fixed bg-cover bg-center min-h-screen "
       style={{ backgroundImage: `url(${background})` }}
     >
-      <div className="container mx-auto p-8 bg-black/5 backdrop-blur-md rounded-lg shadow-lg">
+      <div className="container mx-auto p-8 bg-black/5 backdrop-blur-md lg:mt-[100px] scroll-mt-20 lg:scroll-mt-[80px]">
         <h2 className="text-2xl font-mono italic font-bold mb-4 text-rose-50">About Me</h2>
         
         <div className="flex flex-col md:flex-row items-center">

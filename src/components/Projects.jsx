@@ -80,7 +80,7 @@ const Projects = () => {
 
   
     return (
-      <div className="container mx-auto px-4 py-12" id="projects">
+      <div className="container mx-auto px-4 py-12 scroll-mt-20 lg:scroll-mt-[80px]" id="projects">
         <h2 className="text-3xl font-serif font-bold text-center mb-8 gradient-text bg-slate-400">
           Some of my Projects
         </h2>
