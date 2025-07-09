@@ -524,7 +524,7 @@
             .download-button {
                 top: 10px;
                 right: 10px;
-                padding: 8px 15px;
+                padding: 8px 18px;
                 font-size: 0.9rem;
                 min-width: 90px;
             }
@@ -532,12 +532,43 @@
 
         @media (max-width: 480px) {
             .home-button, .download-button {
-                position: static;
-                margin: 10px auto;
-                width: fit-content;
+                position: fixed;
+                top: 12px;
+                padding: 5px 5px;
+                
+                background: rgba(255,255,255,0.25);
+                box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+                backdrop-filter: blur(8px);
+                border: 1px solid rgba(255,255,255,0.25);
+                z-index: 1000;
+                width: auto;
+                margin: 0;
+                color: #222;
+                font-size: 13px;
+            }
+            .home-button {
+                left: 16px;
+                padding-left: 4px;
+            }
+            .download-button {
+                position: fixed;
+                top: 12px;
+                right: 12px;
+                padding: 4px 0px;
+                background: none !important;
+                border: 1px solid #bbb !important;
+                box-shadow: none !important;
+                min-width: unset;
+                max-width: unset;
+                width: auto !important;
+                display: inline-block;
+                box-sizing: border-box;
+                margin: 0;
+                white-space: nowrap;
+                text-align: center;
             }
             .header {
-                padding-top: 80px; /* Adjust for home button if it becomes static */
+                padding-top: 70px; /* Adjust for fixed buttons */
             }
         }
     </style>
