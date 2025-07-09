@@ -73,11 +73,11 @@ const Navbar = () => {
       className="h-8 w-8 mr-2 sm:mr-4 sm:h-14 sm:w-14 rounded-md mt-2"
     />
     <div>
-      <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-3xl xl:text-5xl font-bold gradient-text leading-[1.2] pb-2">
-        Dancan Malongo
+      <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-2xl xl:text-5xl font-bold gradient-text leading-[1.2] pb-2">
+        Dancan Ongong'o
       </h1>
       <p className="text-sm sm:text-base text-gray-500 italic md:mt-[-6px]">
-        Next Gen Developer Portfolio
+        Full-Stack Developer Portfolio
       </p>
     </div>
   </a>
@@ -85,7 +85,7 @@ const Navbar = () => {
 
 
         {/* Desktop nav links */}
-        <ul className={`${nav ? 'hidden' : 'hidden md:flex mr-20'} hidden lg:flex`}> {/* Hide on mobile */}
+        <ul className={`hidden lg:flex mr-20 lg:text-base xl:text-xl`}> {/* Show only on desktop (lg and up) with smaller font on lg */}
           {isHomePage ? (
             <>
               <li className='p-3 flex items-center'>
