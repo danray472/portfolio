@@ -7,7 +7,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background-image: url('./assets/background-img.jpg'); /* Path to your background image */
-    background-color: #0f172a; /* fallback for image load */
+    background-color: #000000; /* fallback for image load */
     background-size: cover;
     background-attachment: fixed;
     background-position: center;

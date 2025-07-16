@@ -5,13 +5,10 @@ import { faUser, faLaptopCode, faProjectDiagram, faEnvelope, faHome } from '@for
 import logo from '../assets/logo.png';
 
 const Navbar = () => {
-  const [nav, setNav] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
 
-  const closeMenu = () => {
-    setNav(false);
-  };
+  // Removed unused nav state and setNav function
 
   useEffect(() => {
     const handleScroll = () => {
@@ -37,17 +34,15 @@ const Navbar = () => {
     };
 
     window.addEventListener('scroll', handleScroll);
-    document.addEventListener('click', closeMenu);
+    // Removed closeMenu event listeners
 
     return () => {
       window.removeEventListener('scroll', handleScroll);
-      document.removeEventListener('click', closeMenu);
+      // Removed closeMenu event listeners
     };
   }, []);
 
-  const handleLinkClick = () => {
-    setNav(false);
-  };
+  const handleLinkClick = () => {}
 
   const isHomePage = window.location.pathname === '/portfolio/' || window.location.pathname === '/portfolio' || window.location.pathname === '/';
 
@@ -63,14 +58,15 @@ const Navbar = () => {
       >
       <div className="flex items-center mx-3 sm:ml-[10px] md:ml-[80px]">
   <a
-    href={isHomePage ? '#home' : '/portfolio'}
+    href={isHomePage ? '#about' : '/portfolio'}
     className="flex flex-row items-center space-x-2"
     onClick={handleLinkClick}
   >
     <img
       src={logo}
+      size={30}
       alt="Logo"
-      className="h-8 w-8 mr-2 sm:mr-4 sm:h-14 sm:w-14 rounded-md mt-2"
+      className="h-6 w-6 mr-2 sm:mr-4 sm:h-10 sm:w-10 rounded-md mt-2"
     />
     <div>
       <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-2xl xl:text-5xl font-bold gradient-text leading-[1.2] pb-2">
@@ -88,25 +84,25 @@ const Navbar = () => {
         <ul className={`hidden lg:flex mr-20 lg:text-base xl:text-xl`}> {/* Show only on desktop (lg and up) with smaller font on lg */}
           {isHomePage ? (
             <>
-              <li className='p-3 flex items-center'>
+              <li className={`p-3 flex items-center`}>
                 <FontAwesomeIcon icon={faUser} className="mr-2" />
-                <a href="#about" onClick={handleLinkClick}>About</a>
+                <a href="#about" onClick={handleLinkClick} className={activeSection === 'about' ? 'text-[#f97316] font-bold' : ''}>About</a>
               </li>
-              <li className='p-3 flex items-center'>
+              <li className={`p-3 flex items-center`}>
                 <FontAwesomeIcon icon={faLaptopCode} className="mr-2" />
-                <a href="#skills" onClick={handleLinkClick}>Skills</a>
+                <a href="#skills" onClick={handleLinkClick} className={activeSection === 'skills' ? 'text-[#f97316] font-bold' : ''}>Skills</a>
               </li>
-              <li className='p-3 flex items-center'>
+              <li className={`p-3 flex items-center`}>
                 <FontAwesomeIcon icon={faProjectDiagram} className="mr-2" />
-                <a href="#projects" onClick={handleLinkClick}>Projects</a>
+                <a href="#projects" onClick={handleLinkClick} className={activeSection === 'projects' ? 'text-[#f97316] font-bold' : ''}>Projects</a>
               </li>
-              <li className='p-3 flex items-center'>
+              <li className={`p-3 flex items-center`}>
                 <FontAwesomeIcon icon={faEnvelope} className="mr-2" />
-                <a href="#contact" onClick={handleLinkClick}>Contact</a>
+                <a href="#contact" onClick={handleLinkClick} className={activeSection === 'contact' ? 'text-[#f97316] font-bold' : ''}>Contact</a>
               </li>
-              <li className='p-3 flex items-center'>
+              <li className={`p-3 flex items-center`}>
                 <FontAwesomeIcon icon={faUser} className="mr-2" />
-                <a href="/portfolio/cv.html" onClick={handleLinkClick}>View My CV</a>
+                <a href="/portfolio/cv.html" onClick={handleLinkClick} className={activeSection === 'cv' ? 'text-[#f97316] font-bold' : ''}>View My CV</a>
               </li>
             </>
           ) : (
