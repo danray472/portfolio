@@ -10,23 +10,27 @@ const About = () => {
   return (
     <div 
       id="about"
-      className="relative bg-fixed bg-cover bg-center min-h-screen "
+      className="relative bg-fixed bg-cover bg-center min-h-screen"
       style={{ backgroundImage: `url(${background})` }}
     >
-      <div className="container mx-auto p-8 bg-black/5 backdrop-blur-md lg:mt-[100px] scroll-mt-20 lg:scroll-mt-[80px]">
-        <h2 className="text-2xl font-mono italic font-bold mb-4 text-rose-50">About Me</h2>
+      <div className="container mx-auto p-8 bg-black/5 backdrop-blur-md lg:mt-[100px] scroll-mt-20 lg:scroll-mt-[80px] rounded-lg">
+        <div className="flex flex-col sm:flex-row items-center gap-4 mb-4 sm:justify-start sm:ml-8">
+          <h2 className="text-2xl font-mono italic font-bold text-rose-50 mb-0 sm:mb-0 flex items-center">
+            About Me
+            <img 
+              src={myImage} 
+              alt="profile" 
+              className=" sm:inline-block w-16 h-16 rounded-full ml-4 object-cover border-2 border-rose-200 shadow-md" 
+            />
+          </h2>
+        </div>
         
-        <div className="flex flex-col md:flex-row items-center">
-        <img 
-  src={myImage} 
-  alt="profile" 
-  className="w-40 h-50 md:w-52  md:h-52 rounded-[30px] mb-4 md:mb-0" 
-/>
+       
 
           
           <div className='col-span-2 px-5 my-auto'>
-          <h1 className='text-4xl sm:text-5xl lg:text-8xl font-extrabold'>
-          <span className='text-xl text-rose-50 sm:text-xl md:text-6xl font-light italic' style={{ fontFamily: 'Caveat, cursive' }}>
+          <h1 className=' sm:text-5xl lg:text-6x0.5 md:text-6x0.5 font-extrabold'>
+          <span className='text-xl text-rose-50 sm:text-2xl md:text-4xl font-light italic' style={{ fontFamily: 'Caveat, cursive' }}>
           Hello! I'm Dancan — a Full-Stack Developer passionate about crafting innovative, secure, and scalable web and mobile applications. Welcome to my portfolio, where clean code meets thoughtful design and security best practices.
 </span>
 
@@ -62,7 +66,7 @@ const About = () => {
 </span>
 <span className="hidden md:flex items-center">
   <TypeAnimation 
-    className='gradient-text md:text-6xl lg:text-8xl'
+    className='gradient-text md:text-5xl lg:text-7xl'
     sequence={[
       "Junior Developer",
       2500,
@@ -81,14 +85,14 @@ const About = () => {
     speed={30}
     repeat={Infinity} 
   />
-  <span className="-ml-1 md:text-6xl lg:text-8xl text-rose-100 animate-pulse align-baseline">|</span>
+  <span className="-ml-1 md:text-4xl lg:text-6xl text-rose-100 animate-pulse align-baseline">|</span>
 </span>
 </div>
         </h1>
         </div>
       </div>
 
-      <div className="about-info mt-0 sm:mt-32 md:mt-40 lg:mt-48">
+      <div className="about-info mx-4 sm:mt-32 md:mx-20 lg:mx-40 sm:mx-5 md:mt-20 lg:mt-20">
         <p className="text-base text-rose-50 sm:text-lg my-6 lg:text-xl font-sans italic">
           <strong>Dancan Malongo Ongong'o | Full-Stack Developer 👨‍💻</strong><br />
           I’m a Full-Stack Developer with a strong foundation in software engineering and a passion for building secure, high-quality web and mobile applications.
@@ -103,16 +107,16 @@ Let’s build something bold, secure, and impactful.
         </p>
       </div>
 
-      <div className='flex justify-center items-center gap-4'>
+      <div className='flex flex-wrap justify-center items-center gap-4 md:gap-4 lg:gap-40'>
         <a 
-          href="/portfolio/cv.html" // Updated to directly link to the static HTML file
-          className='px-4 py-2 md:px-6 md:py-3 rounded-xl bg-gradient-to-br from-orange-500 to-pink-500 text-white font-semibold flex items-center gap-2 hover:scale-105 duration-200 shadow-lg'
+          href="/portfolio/cv.html"
+          className='px-2 py-1 text-sm md:px-6 md:py-3 md:text-base rounded-xl bg-gradient-to-br from-orange-500 to-pink-500 text-white font-semibold flex items-center gap-2 hover:scale-105 duration-200 shadow-lg'
         >
           View My CV
         </a>
         <a 
           href="#contact" 
-          className='px-4 py-2 md:px-6 md:py-3 rounded-xl bg-gradient-to-br from-orange-500 to-pink-500 text-white font-semibold flex items-center gap-2 hover:scale-105 duration-200 shadow-lg'
+          className='px-2 py-1 text-sm md:px-6 md:py-3 md:text-base rounded-xl bg-gradient-to-br from-orange-500 to-pink-500 text-white font-semibold flex items-center gap-2 hover:scale-105 duration-200 shadow-lg'
         >
           Contact Me
         </a>
@@ -120,7 +124,7 @@ Let’s build something bold, secure, and impactful.
           href="https://github.com/danray472" 
           target="_blank" 
           rel="noopener noreferrer" 
-          className='px-4 py-2 md:px-6 md:py-3 rounded-xl bg-gray-900 text-white font-semibold flex items-center gap-2 hover:scale-105 duration-200 shadow-lg'
+          className='px-2 py-1 text-sm md:px-6 md:py-3 md:text-base rounded-xl bg-gray-900 text-white font-semibold flex items-center gap-2 hover:scale-105 duration-200 shadow-lg'
           aria-label="GitHub Profile"
         >
           {/* GitHub SVG icon */}
@@ -129,7 +133,7 @@ Let’s build something bold, secure, and impactful.
           </a>
         </div>
       </div>
-    </div>
+  
   );
 };
 

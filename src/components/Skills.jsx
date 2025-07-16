@@ -46,197 +46,196 @@ const skills = [
     image: nextjs,
     alt: 'NextJs',
     title: 'NextJs',
-    description: 'A robust framework for building server-side rendered and statically generated React applications, Next.jsoffers features like automatic code splitting, optimized performance, and built-in API routes. It simplifies the development process while enhancing the scalability of web applications',
+    description: 'A robust framework for building server-side rendered and statically generated React applications, with built-in routing and API support.',
     imgClass: 'w-20 mx-auto rounded-md',
   },
   {
     image: firebase,
     alt: 'Firebase',
     title: 'Firebase',
-    description: `Google's mobile and web application development platform, Firebase provides a suite of tools and services, such as real-time database, authentication, and cloud storage. It helps developers build high-quality apps quickly by handling backend infrastructure and offering seamless integration with other Google services`,
+    description: `Firebase is Google's app development platform that provides backend services such as real-time databases, authentication, cloud functions, and hosting.`,
     imgClass: 'w-20 mx-auto rounded-md',
   },
   {
     image: reactNative,
     alt: 'React Native',
     title: 'React Native',
-    description: 'This powerful framework enables the creation of natively-rendered mobile applications for iOS and Android using a single codebase written in JavaScript. Its component-based architecture allows for efficient development and excellent performance across platforms',
+    description: 'A popular JavaScript framework for writing mobile applications that render natively on iOS and Android using one codebase.',
     imgClass: 'w-20 mx-auto rounded-md',
   },
   {
     image: mongoDB,
     alt: 'mongoDB',
-    title: 'mongoDB',
-    description: 'MongoDB played an integral role in my MERN-stack projects, representing a cornerstone of my expertise due to its extensive utilization across various endeavors',
+    title: 'MongoDB',
+    description: 'A document-oriented NoSQL database, essential in MERN stack development for handling unstructured data.',
     imgClass: 'w-20 mx-auto rounded-md',
   },
   {
     image: tailwind,
     alt: 'Tailwind',
-    title: 'Tailwind',
-    description: 'Tailwind CSS stands as an indispensable tool in modern web development, characterized by its simplicity, efficiency, and remarkable speed',
+    title: 'Tailwind CSS',
+    description: 'A utility-first CSS framework that enables rapid UI development with consistent design directly in your markup.',
     imgClass: 'w-20 mx-auto',
   },
   {
     image: python,
     alt: 'Python',
     title: 'Python',
-    description: 'Python stands out as one of the most widely utilized programming languages over the years, owing to its versatility and robust capabilities that enable it to tackle a myriad of tasks. Its inclusion in my skill stack is inevitable, given its indispensable role in modern software development',
+    description: 'A versatile programming language widely used for scripting, web apps, automation, data science, and security tools.',
     imgClass: 'w-20 mx-auto rounded-md',
   },
   {
     image: c,
     alt: 'C++',
     title: 'C++',
-    description: 'Proficient in C++ for system programming, game development, and performance-critical applications',
+    description: 'Proficient in C++ for system programming, performance-critical software, and security-related low-level tasks.',
     imgClass: 'w-20 mx-auto rounded-md',
   },
   {
     image: npm,
     alt: 'NPM',
     title: 'NPM',
-    description: 'Proficient in using NPM for package management, facilitating efficient dependency management and project configuration',
+    description: 'Proficient in managing JavaScript packages and dependencies using NPM.',
     imgClass: 'w-20 mx-auto rounded-md',
   },
   {
     image: php,
     alt: 'PHP',
     title: 'PHP',
-    description: 'Experienced in using PHP for server-side scripting and dynamic web development',
+    description: 'Experienced in using PHP to build server-side logic, interact with databases, and render dynamic content.',
     imgClass: 'w-20 mx-auto rounded-md',
   },
   {
     image: sql,
     alt: 'SQL',
     title: 'SQL',
-    description: 'While I may not employ it on a daily basis, this database system has remained the foremost choice for decades, retaining its preeminent position in the industry. Its enduring popularity and rich feature set underscore its indispensable role in software development',
+    description: 'Proficient in writing queries, managing relational databases, and handling data integrity using SQL.',
     imgClass: 'w-20 mx-auto rounded-md',
   },
   {
     image: CSSImage,
     alt: 'CSS',
     title: 'CSS',
-    description: 'CSS serves as an indispensable tool utilized by developers and software engineers, constituting a fundamental component of software development processes',
+    description: 'Styling language that transforms HTML structures into visually compelling web experiences.',
     imgClass: 'w-20 mx-auto',
   },
   {
     image: HTMLImage,
     alt: 'HTML',
     title: 'HTML',
-    description: 'While HTML proficiency is inherent in my skill set, I have acquired it since the inception of my journey in software development',
+    description: 'The standard markup language for building the structure of web content.',
     imgClass: 'w-20 mx-auto',
   },
   {
     image: networking,
     alt: 'Networking',
-    title: 'Computer Network',
-    description: 'Computer networking stands as a foundational skill requisite for any tech-related position, and I have diligently cultivated proficiency in this domain. Additionally, I pursued the CCNA certification to deepen my understanding of networking principles and practices',
+    title: 'Computer Networking',
+    description: 'Solid understanding of TCP/IP, routing, subnets, and switching. Backed by Cisco CCNA certification and practical labs.',
     imgClass: 'w-full h-32 object-contain p-4',
   },
   {
     image: security,
     alt: 'Cyber Security',
     title: 'Cyber Security',
-    description: `In today's era of computer technology, computer security holds paramount importance. I have dedicated significant effort to enhancing my knowledge in cybersecurity, extensively studying various aspects of the field. Additionally, I have obtained certification in network security to further fortify my expertise in safeguarding digital assets against potential threats`,
+    description: 'Practical knowledge of security concepts, ethical hacking, and vulnerability analysis. Certified in network security with hands-on penetration testing.',
     imgClass: 'w-full h-32 object-contain p-4',
   },
   {
     image: apis,
     alt: 'RESTful APIs',
     title: 'RESTful APIs',
-    description: 'Experienced in designing and consuming RESTful APIs to enable seamless communication between client and server applications',
+    description: 'Skilled in designing, implementing, and consuming RESTful services for client-server communication.',
     imgClass: 'w-full h-32 object-contain p-4',
   },
   {
     image: authenticationAuthorization,
     alt: 'Authentication & Authorization',
     title: 'Authentication & Authorization',
-    description: 'Proficient in implementing secure authentication and authorization mechanisms to safeguard user data and control access',
+    description: 'Experienced in implementing OAuth, JWT, and session-based access control for securing applications.',
     imgClass: 'w-full h-32 object-contain p-4',
   },
   {
     image: ciCd,
     alt: 'CI/CD',
     title: 'CI/CD',
-    description: 'Experienced with CI/CD pipelines using GitHub Actions for automated testing and deployment',
+    description: 'Set up continuous integration and delivery pipelines using GitHub Actions to automate testing and deployment.',
     imgClass: 'w-full h-32 object-contain p-4',
   },
   {
     image: kali,
     alt: 'Kali Linux',
     title: 'Kali Linux',
-    description: 'Skilled in using Kali Linux for penetration testing and ethical hacking, providing hands-on experience with a wide range of security tools and techniques',
+    description: 'Hands-on experience with Kali Linux tools for ethical hacking, vulnerability scanning, and network reconnaissance.',
     imgClass: 'w-full h-32 object-contain p-4',
   },
   {
     image: uiUx,
     alt: 'UI/UX',
     title: 'UI/UX Design',
-    description: 'Skilled in UI/UX design principles to create user-friendly and visually appealing interfaces',
+    description: 'Designing user-friendly interfaces using wireframes, mockups, and usability principles.',
     imgClass: 'w-22 mx-auto',
   },
   {
     image: versionControl,
     alt: 'Version Control',
     title: 'Version Control',
-    description: 'Proficient in using version control systems like Git for efficient collaboration and code management',
+    description: 'Fluent in Git for version tracking, branching strategies, and collaborative workflows.',
     imgClass: 'w-40 mx-auto',
   },
   {
     image: communicationSkills,
     alt: 'Communication Skills',
     title: 'Communication Skills',
-    description: 'Clear and concise communication is essential in the tech industry, and I excel in this area. I articulate ideas, requirements, and feedback effectively to both technical and non-technical stakeholders. My ability to listen actively and respond thoughtfully ensures that everyone is on the same page, facilitating smooth project execution and minimizing misunderstandings.',
+    description: 'Strong verbal and written communication. Able to explain technical concepts clearly across teams.',
     imgClass: 'w-40 mx-auto',
   },
   {
     image: problemSolving,
     alt: 'Problem Solving',
     title: 'Problem Solving',
-    description: 'Tackling challenges head-on is a core strength of mine. I approach problems methodically, breaking them down into manageable components and analyzing each aspect to devise effective solutions. My creative thinking and adaptability allow me to navigate complex issues, and I continuously seek innovative ways to overcome obstacles and deliver results.',
+    description: 'Analytical thinker with a methodical approach to identifying root causes and deploying effective solutions.',
     imgClass: 'w-40 mx-auto',
   },
   {
     image: teamWork,
     alt: 'Team Work',
     title: 'Team Work',
-    description: `I thrive in collaborative environments where diverse skills and perspectives come together to achieve common goals. My ability to work harmoniously with team members fosters a positive and productive atmosphere. Whether in small groups or large teams, I contribute actively, value others' input, and ensure that our collective efforts result in successful outcomes.`,
+    description: 'Collaborative and supportive team player, contributing actively and valuing diversity of thought.',
     imgClass: 'w-40 mx-auto',
   },
   {
     image: timeManagement,
     alt: 'Time Management',
     title: 'Time Management',
-    description: `As a tech professional, I excel in time management, ensuring that I prioritize tasks effectively and meet deadlines consistently. My ability to schedule tasks efficiently and execute them with precision allows me to deliver high-quality work on time. This skill is essential in managing multiple projects and maintaining productivity, making me a reliable and organized member of any team.`,
+    description: 'Well-organized and deadline-oriented. Skilled in planning tasks across multiple projects.',
     imgClass: 'w-40 mx-auto',
   },
 ];
 
-const technicalSkills = skills.filter(s => s.title !== 'Computer Network' && skills.indexOf(s) < skills.findIndex(s => s.title === 'Cyber Security'));
-const softSkills = skills.filter((s, idx) => idx >= skills.findIndex(s => s.title === 'Computer Network'));
+const technicalSkills = skills.filter(s => s.title !== 'Computer Networking' && skills.indexOf(s) < skills.findIndex(s => s.title === 'Cyber Security'));
+const softSkills = skills.filter((s, idx) => idx >= skills.findIndex(s => s.title === 'Computer Networking'));
 
 const Skills = () => {
   return (
-    <div className="mt-10 container mx-auto p-8 bg-black/20 border border-white/10 backdrop-blur-lg shadow-lg rounded-lg scroll-mt-20 lg:scroll-mt-[80px]" id="skills">
+    <div className="mt-10 2xl:-mt-40 container mx-auto p-8 bg-black/20 border border-white/10 backdrop-blur-lg shadow-lg rounded-lg scroll-mt-20 lg:scroll-mt-[80px]" id="skills">
       <h2 className="text-2xl font-bold mb-4 !text-center font-serif gradient-text">Professional Skills</h2>
-      {/* Technical Skills */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
         {technicalSkills.map((skill, idx) => (
           <div key={idx} className="bg-black/0 p-4 shadow-lg custom-shadow border border-white/20 rounded-lg">
             <img src={skill.image} alt={skill.alt} className={skill.imgClass} />
             <h3 className="text-lg font-semibold mt-4 text-white">{skill.title}</h3>
-            <p className="text-sm text-black-600 mt-2 text-white">{skill.description}</p>
+            <p className="text-sm text-white mt-2">{skill.description}</p>
           </div>
         ))}
       </div>
-      {/* Soft Skills (styled like Projects) */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {softSkills.map((skill, idx) => (
           <div key={idx} className="rounded-lg overflow-hidden w-full max-w-xs mx-auto bg-black/0 p-4 shadow-lg custom-shadow border border-white/20">
-            <div className="w-full h-40 flex items-center justify-center  overflow-hidden">
-  <img src={skill.image} alt={skill.alt} className="w-full h-full object-cover rounded-md" />
-</div>
+            <div className="w-full h-40 flex items-center justify-center overflow-hidden">
+              <img src={skill.image} alt={skill.alt} className="w-full h-full object-cover rounded-md" />
+            </div>
             <div className="p-4">
+              <h3 className="text-lg font-semibold text-white mb-2">{skill.title}</h3>
               <p className="text-sm text-white mb-2">{skill.description}</p>
             </div>
           </div>
