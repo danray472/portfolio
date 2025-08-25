@@ -6,7 +6,7 @@ import recipeApp from '../assets/rcm-college.png';
 import portfolio from '../assets/portfolio.png';
 import bsrHospital from '../assets/bsrHospital.png';
 import bookStore from '../assets/bookStore.png';
-import movieApp from '../assets/movieApp.jpeg';
+import aldeonWorld from '../assets/aldeon-world.png';
 import Library from '../assets/Library.png';
 import inroom from '../assets/inroom.png';
 
@@ -28,11 +28,11 @@ const Projects = () => {
       rendaLink: "https://dseproject-client-1.onrender.com"
     },
     {
-      title: "Movie App",
-      description: "A sleek React Native movie discovery app built by Dan, a Full Stack Developer",
-      image: movieApp,
-      githubLink: "https://github.com/danray472/movie-app",
-      rendaLink: "https://expo.dev/accounts/danray472/projects/rn-movie-app/builds/664625c0-2900-4368-a6c5-b658d036759c"
+      title: "Aldeon World",
+      description: "A business website for Aldeon World, specializing in tender and contract services, premium supplies, branding, construction, and interior design.",
+      image: aldeonWorld,
+      githubLink: "https://github.com/danray472/aldeon-world.git",
+      rendaLink: "https://aldeonworld.com/"
     },
     {
       title: "RCM College Website",

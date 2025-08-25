@@ -30,9 +30,15 @@ const About = () => {
           
           <div className='col-span-2 px-5 my-auto'>
           <h1 className=' sm:text-5xl lg:text-6x0.5 md:text-6x0.5 font-extrabold'>
-          <span className='text-xl text-rose-50 sm:text-2xl md:text-4xl font-light italic' style={{ fontFamily: 'Caveat, cursive' }}>
-          Hello! I'm Dancan — a Full-Stack Developer passionate about crafting innovative, secure, and scalable web and mobile applications. Welcome to my portfolio, where clean code meets thoughtful design and security best practices.
+          <span 
+  className='text-xl text-rose-50 sm:text-2xl md:text-4xl font-light italic' 
+  style={{ fontFamily: 'Caveat, cursive' }}
+>
+  Hello! I’m Dancan — a Full-Stack Developer passionate about crafting clean, 
+  scalable, and user-friendly web & mobile applications.  
+  Welcome to my portfolio — where creativity meets code to build impactful digital experiences.
 </span>
+
 
 
 
@@ -93,18 +99,23 @@ const About = () => {
       </div>
 
       <div className="about-info mx-4 sm:mt-32 md:mx-20 lg:mx-40 sm:mx-5 md:mt-20 lg:mt-20">
-        <p className="text-base text-rose-50 sm:text-lg my-6 lg:text-xl font-sans italic">
-          <strong>Dancan Malongo Ongong'o | Full-Stack Developer 👨‍💻</strong><br />
-          I’m a Full-Stack Developer with a strong foundation in software engineering and a passion for building secure, high-quality web and mobile applications.
-
- While my academic journey at Zetech University provided the fundamentals, I’ve gone far beyond that—driven by curiosity and a desire to stay ahead. I’ve taught myself modern tools like React Native and Next.js, and continually explore new technologies to stay in sync with industry trends.
-
- Alongside development, I’ve built solid expertise in cybersecurity and networking, earning the Cisco CCNA certification. This background plays a key role in how I approach software — helping me develop applications that are not just functional and scalable, but secure by design.
-
- I’ve contributed to a range of client projects and thrive in collaborative teams that value clean code, innovation, and continuous learning.
-
-Let’s build something bold, secure, and impactful. 
-        </p>
+      <p className="text-base text-rose-50 sm:text-lg my-6 lg:text-xl font-sans italic">
+  <strong>Dancan Malongo Ongong'o | Full-Stack Developer 👨‍💻</strong><br/>
+  I’m a developer with a solid foundation in software engineering and a deep passion 
+  for turning ideas into functional, high-quality applications.  
+  My journey started at Zetech University, where I built the fundamentals — and has 
+  since been fueled by self-learning and hands-on projects.
+  <br/><br/>
+  I specialize in building modern web and mobile apps using tools like React, 
+  Next.js, and React Native, always aiming for clean, maintainable code and 
+  thoughtful design. I love exploring new frameworks and technologies to stay 
+  current and deliver solutions that meet today’s demands.
+  <br/><br/>
+  I’ve contributed to diverse projects for clients and personal ventures, thriving 
+  in collaborative teams where learning and innovation are encouraged.  
+  If you’re looking for a motivated developer who’s ready to grow, adapt, and 
+  deliver — let’s build something great together.
+</p>
       </div>
 
       <div className='flex flex-wrap justify-center items-center gap-4 md:gap-4 lg:gap-40'>
