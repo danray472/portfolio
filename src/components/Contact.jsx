@@ -102,7 +102,7 @@ const Contact = () => {
                 <button
                   type="submit"
                   disabled={submitting}
-                  className={`text-3xl w-[140px] p-2 rounded-lg font-extrabold transition-all duration-300 
+                  className={`text-2xl w-[180px] p-2 rounded-lg font-extrabold transition-all duration-300 
                     bg-gradient-to-r from-pink-500 via-yellow-400 to-pink-600 text-gray-800 shadow-lg 
                     border-4 border-transparent 
                     animate-pulse 

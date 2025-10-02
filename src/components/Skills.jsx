@@ -217,7 +217,7 @@ const softSkills = skills.filter((s, idx) => idx >= skills.findIndex(s => s.titl
 
 const Skills = () => {
   return (
-    <div className="mt-10 2xl:-mt-60 container mx-auto p-8 bg-black/20 border border-white/10 backdrop-blur-lg shadow-lg rounded-lg scroll-mt-20 lg:scroll-mt-[80px]" id="skills">
+    <div className="mt-10 container mx-auto p-8 bg-black/20 border border-white/10 backdrop-blur-lg shadow-lg rounded-lg scroll-mt-20 lg:scroll-mt-[80px]" id="skills">
       <h2 className="text-2xl font-bold mb-4 !text-center font-serif gradient-text">Professional Skills</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
         {technicalSkills.map((skill, idx) => (

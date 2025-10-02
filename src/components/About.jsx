@@ -118,7 +118,7 @@ const About = () => {
 </p>
       </div>
 
-      <div className='flex flex-wrap justify-center items-center gap-4 md:gap-4 lg:gap-40'>
+      <div className='flex flex-wrap justify-center items-center gap-4 md:gap-4 lg:gap-40 mt-8 2xl:mt-32'>
         <a 
           href="/portfolio/cv.html"
           className='px-2 py-1 text-sm md:px-6 md:py-3 md:text-base rounded-xl bg-gradient-to-br from-orange-500 to-pink-500 text-white font-semibold flex items-center gap-2 hover:scale-105 duration-200 shadow-lg'

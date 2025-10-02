@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="relative bg-gray-900 text-white w-full py-10 px-5 z-10 mt-20">
   {/* Gradient overlay */}
-  <div className="absolute -top-6 left-0 w-full h-6 bg-gradient-to-b from-transparent to-gray-900 pointer-events-none z-[-1]"></div>
+  <div className="absolute -top-6 left-0 w-full h-6 bg-gradient-to-b pointer-events-none z-[-1]"></div>
       <div className='container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8'>
         
         
