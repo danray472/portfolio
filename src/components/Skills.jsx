@@ -25,7 +25,12 @@ import teamWork from '../assets/teamWork.png';
 import reactNative from '../assets/reactNative.png';
 import nextjs from '../assets/nextjs.png';
 import firebase from '../assets/firebase.png';
+import supabase from '../assets/supabase.png';
 import timeManagement from '../assets/timeManagement.png';
+import node from '../assets/node.jpg';
+import express from '../assets/express.png';
+import docker from '../assets/docker.jpg';
+import cloud from '../assets/cloud.jpg';
 
 const skills = [
   {
@@ -54,6 +59,41 @@ const skills = [
     alt: 'Firebase',
     title: 'Firebase',
     description: `Firebase is Google's app development platform that provides backend services such as real-time databases, authentication, cloud functions, and hosting.`,
+    imgClass: 'w-20 mx-auto rounded-md',
+  },
+  {
+    image: supabase,
+    alt: 'Supabase',
+    title: 'Supabase',
+    description: 'An open-source Firebase alternative that provides a suite of tools including a real-time database, authentication, and edge functions.',
+    imgClass: 'w-20 mx-auto rounded-md',
+  },
+  {
+    image: node,
+    alt: 'Node.js',
+    title: 'Node.js',
+    description: 'A cross-platform, open-source JavaScript runtime environment that can run on Windows, Linux, Unix, macOS, and more.',
+    imgClass: 'w-20 mx-auto rounded-md',
+  },
+  {
+    image: express,
+    alt: 'Express.js',
+    title: 'Express.js',
+    description: 'A minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.',
+    imgClass: 'w-20 mx-auto rounded-md',
+  },
+  {
+    image: docker,
+    alt: 'Docker',
+    title: 'Docker',
+    description: 'An open-source platform that automates the deployment, scaling, and management of applications using containerization.',
+    imgClass: 'w-20 mx-auto rounded-md',
+  },
+  {
+    image: cloud,
+    alt: 'Cloud Computing',
+    title: 'Cloud Computing',
+    description: 'Knowledge of cloud infrastructure and services for deploying, managing, and scaling applications in the cloud.',
     imgClass: 'w-20 mx-auto rounded-md',
   },
   {

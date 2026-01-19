@@ -23,7 +23,7 @@ const Footer = () => {
             <li><a href='#skills' className='hover:text-white underline'>Skills</a></li>
             <li><a href='#projects' className='hover:text-white underline'>Projects</a></li>
             <li><a href='#contact' className='hover:text-white underline'>Contact</a></li>
-            <li><a href='/portfolio/cv.html' className='hover:text-white underline'>View My CV</a></li>
+            <li><a href='/portfolio/CV_Dancan Ongongo.pdf' download className='hover:text-white underline'>Download My CV</a></li>
           </ul>
         </div>
         

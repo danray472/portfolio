@@ -56,7 +56,7 @@ const Navbar = () => {
             : 'bg-transparent h-[100px] text-2xl text-white'
         }`}
       >
-      <div className="flex items-center mx-3 sm:ml-[10px] md:ml-[80px]">
+      <div className="flex items-center ml-4 sm:ml-6 lg:ml-12">
   <a
     href={isHomePage ? '#about' : '/portfolio'}
     className="flex flex-row items-center space-x-2"
@@ -66,13 +66,13 @@ const Navbar = () => {
       src={logo}
       size={30}
       alt="Logo"
-      className="h-6 w-6 mr-2 sm:mr-4 sm:h-10 sm:w-10 rounded-md mt-2"
+      className="h-6 w-6 mr-2 sm:mr-3 sm:h-10 sm:w-10 rounded-md mt-2"
     />
     <div>
-      <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-2xl xl:text-5xl font-bold gradient-text leading-[1.2] pb-2">
+      <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl font-bold gradient-text leading-[1.2] pb-2">
         Dancan Ongong'o
       </h1>
-      <p className="text-sm sm:text-base text-gray-500 italic md:mt-[-6px]">
+      <p className="text-xs sm:text-sm lg:text-base text-gray-500 italic md:mt-[-6px]">
         Full-Stack Developer Portfolio
       </p>
     </div>
@@ -81,28 +81,28 @@ const Navbar = () => {
 
 
         {/* Desktop nav links */}
-        <ul className={`hidden lg:flex mr-20 lg:text-base xl:text-xl`}> {/* Show only on desktop (lg and up) with smaller font on lg */}
+        <ul className={`hidden lg:flex mr-6 lg:mr-8 xl:mr-12 lg:text-sm xl:text-base gap-1`}> {/* Show only on desktop (lg and up) with smaller font on lg */}
           {isHomePage ? (
             <>
-              <li className={`p-3 flex items-center`}>
-                <FontAwesomeIcon icon={faUser} className="mr-2" />
+              <li className={`px-2 py-3 flex items-center`}>
+                <FontAwesomeIcon icon={faUser} className="mr-1.5" />
                 <a href="#about" onClick={handleLinkClick} className={activeSection === 'about' ? 'text-[#f97316] font-bold' : ''}>About</a>
               </li>
-              <li className={`p-3 flex items-center`}>
-                <FontAwesomeIcon icon={faLaptopCode} className="mr-2" />
+              <li className={`px-2 py-3 flex items-center`}>
+                <FontAwesomeIcon icon={faLaptopCode} className="mr-1.5" />
                 <a href="#skills" onClick={handleLinkClick} className={activeSection === 'skills' ? 'text-[#f97316] font-bold' : ''}>Skills</a>
               </li>
-              <li className={`p-3 flex items-center`}>
-                <FontAwesomeIcon icon={faProjectDiagram} className="mr-2" />
+              <li className={`px-2 py-3 flex items-center`}>
+                <FontAwesomeIcon icon={faProjectDiagram} className="mr-1.5" />
                 <a href="#projects" onClick={handleLinkClick} className={activeSection === 'projects' ? 'text-[#f97316] font-bold' : ''}>Projects</a>
               </li>
-              <li className={`p-3 flex items-center`}>
-                <FontAwesomeIcon icon={faEnvelope} className="mr-2" />
+              <li className={`px-2 py-3 flex items-center`}>
+                <FontAwesomeIcon icon={faEnvelope} className="mr-1.5" />
                 <a href="#contact" onClick={handleLinkClick} className={activeSection === 'contact' ? 'text-[#f97316] font-bold' : ''}>Contact</a>
               </li>
-              <li className={`p-3 flex items-center`}>
-                <FontAwesomeIcon icon={faUser} className="mr-2" />
-                <a href="/portfolio/cv.html" onClick={handleLinkClick} className={activeSection === 'cv' ? 'text-[#f97316] font-bold' : ''}>View My CV</a>
+              <li className={`px-2 py-3 flex items-center`}>
+                <FontAwesomeIcon icon={faUser} className="mr-1.5" />
+                <a href="/portfolio/CV_Dancan Ongongo.pdf" download onClick={handleLinkClick} className={activeSection === 'cv' ? 'text-[#f97316] font-bold' : ''}>Download My CV</a>
               </li>
             </>
           ) : (
@@ -135,9 +135,9 @@ const Navbar = () => {
           <FontAwesomeIcon icon={faEnvelope} size="lg" />
           <span className="font-bold">Contact</span>
         </a>
-        <a href="/portfolio/cv.html" className={`flex flex-col items-center text-xs transition-all ${activeSection === 'cv' ? 'text-[#f97316]' : 'text-white'}`}> 
+        <a href="/portfolio/CV_Dancan Ongongo.pdf" download className={`flex flex-col items-center text-xs transition-all ${activeSection === 'cv' ? 'text-[#f97316]' : 'text-white'}`}> 
           <FontAwesomeIcon icon={faUser} size="lg" />
-          <span className="font-bold">My CV</span>
+          <span className="font-bold">Download CV</span>
         </a>
       </nav>
     </>
