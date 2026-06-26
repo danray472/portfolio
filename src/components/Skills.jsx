@@ -31,6 +31,7 @@ import node from '../assets/node.jpg';
 import express from '../assets/express.png';
 import docker from '../assets/docker.jpg';
 import cloud from '../assets/cloud.jpg';
+import llm from '../assets/LLM.jpg';
 
 const skills = [
   {
@@ -87,13 +88,6 @@ const skills = [
     alt: 'Docker',
     title: 'Docker',
     description: 'An open-source platform that automates the deployment, scaling, and management of applications using containerization.',
-    imgClass: 'w-20 mx-auto rounded-md',
-  },
-  {
-    image: cloud,
-    alt: 'Cloud Computing',
-    title: 'Cloud Computing',
-    description: 'Knowledge of cloud infrastructure and services for deploying, managing, and scaling applications in the cloud.',
     imgClass: 'w-20 mx-auto rounded-md',
   },
   {
@@ -178,6 +172,20 @@ const skills = [
     alt: 'Cyber Security',
     title: 'Cyber Security',
     description: 'Practical knowledge of security concepts, ethical hacking, and vulnerability analysis. Certified in network security with hands-on penetration testing.',
+    imgClass: 'w-full h-32 object-contain p-4',
+  },
+  {
+    image: cloud,
+    alt: 'Cloud Computing',
+    title: 'Cloud Computing',
+    description: 'Knowledge of cloud infrastructure and services for deploying, managing, and scaling applications in the cloud.',
+    imgClass: 'w-full h-32 object-contain p-4',
+  },
+  {
+    image: llm,
+    alt: 'LLM & AI Integration',
+    title: 'LLM & AI Integration',
+    description: 'Experience working with AI agents and integrating them into applications using various models. AI is the future, and I leverage these technologies to build intelligent, next-generation solutions.',
     imgClass: 'w-full h-32 object-contain p-4',
   },
   {

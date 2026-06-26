@@ -74,7 +74,7 @@ const About = () => {
   <TypeAnimation 
     className='gradient-text md:text-5xl lg:text-7xl'
     sequence={[
-      "Junior Developer",
+      "Software Engineer",
       2500,
       "",
       700,
@@ -100,27 +100,17 @@ const About = () => {
 
       <div className="about-info mx-4 sm:mt-32 md:mx-20 lg:mx-40 sm:mx-5 md:mt-20 lg:mt-20">
       <p className="text-base text-rose-50 sm:text-lg my-6 lg:text-xl font-sans italic">
-  <strong>Dancan Malongo Ongong'o | Full-Stack Developer 👨‍💻</strong><br/>
-  I’m a developer with a solid foundation in software engineering and a deep passion 
-  for turning ideas into functional, high-quality applications.  
-  My journey started at Zetech University, where I built the fundamentals — and has 
-  since been fueled by self-learning and hands-on projects.
-  <br/><br/>
-  I specialize in building modern web and mobile apps using tools like React, 
-  Next.js, and React Native, always aiming for clean, maintainable code and 
-  thoughtful design. I love exploring new frameworks and technologies to stay 
-  current and deliver solutions that meet today’s demands.
-  <br/><br/>
-  I’ve contributed to diverse projects for clients and personal ventures, thriving 
-  in collaborative teams where learning and innovation are encouraged.  
-  If you’re looking for a motivated developer who’s ready to grow, adapt, and 
-  deliver — let’s build something great together.
-</p>
-      </div>
+<strong>Dancan Malongo Ongong'o | Full-Stack & Secure Systems Developer 👨‍💻</strong><br/>
+I’m a developer with a solid foundation in software engineering and a deep passion for turning complex ideas into functional, high-quality, and secure applications. My journey started at Zetech University, building code fundamentals, and has since expanded into the realms of cloud architecture and robust application security (AppSec) through continuous hands-on engineering.
+<br/><br/>
+I specialize in building modern web and mobile apps using tools like React, Next.js, and React Native, always engineering with a security-first and cloud-optimized mindset. I bridge front-end user experiences with resilient, hardened backend logic, ensuring that the software I deliver is both highly scalable and protected against modern web vulnerabilities.
+<br/><br/>
+I've contributed to diverse projects for clients and personal ventures, thriving in collaborative environments where performance, cloud scalability, and defensive coding are prioritized. If you're looking for a motivated developer ready to design, deploy, and secure next-generation applications—let's build something great together.</p>
+</div>
 
       <div className='flex flex-wrap justify-center items-center gap-4 md:gap-4 lg:gap-40 mt-8 2xl:mt-32'>
         <a 
-          href="/portfolio/CV_Dancan Ongongo.pdf"
+          href="/CV-new_V6.pdf"
           download
           className='px-2 py-1 text-sm md:px-6 md:py-3 md:text-base rounded-xl bg-gradient-to-br from-orange-500 to-pink-500 text-white font-semibold flex items-center gap-2 hover:scale-105 duration-200 shadow-lg'
         >

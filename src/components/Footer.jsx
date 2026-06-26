@@ -31,7 +31,7 @@ const Footer = () => {
         <div className='space-y-3'>
           <h3 className='text-xl font-semibold animate-pulse'>Contact Info</h3>
           <p className='text-gray-400'>dancanfullstackdev@gmail.com</p>
-          <p className='text-gray-400'>#JuniorSoftwareEngineer2025</p>
+          <p className='text-gray-400'>#SoftwareEngineer2026</p>
           <p className='text-gray-400'>Nairobi, Kenya</p>
         </div>
         

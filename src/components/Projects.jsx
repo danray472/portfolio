@@ -8,6 +8,7 @@ import bsrHospital from '../assets/bsrHospital.png';
 import Library from '../assets/Library.png';
 import electronicRepair from '../assets/electronic-repair.png';
 import aldeonWorld from '../assets/aldeon-world.png';
+import vibaruaImg from '../assets/vibarua-img.png';
 
 const Projects = () => {
   const projects = [
@@ -60,6 +61,13 @@ const Projects = () => {
       image: bsrHospital,
       githubLink: "https://github.com/danray472/bsr-hospital",
       rendaLink: "https://bsr-hospital.vercel.app/"
+    },
+    {
+      title: "Vibarua",
+      description: "A secure marketplace platform connecting clients with casual workers such as plumbers, electricians, and cleaners. Features include authentication, worker profiles, job requests, reviews, and role-based access control built using modern tools.",
+      image: vibaruaImg,
+      githubLink: "https://github.com/danray472/capstone-project.git",
+      rendaLink: "https://capstone-project-ebon-three.vercel.app/"
     },
   ];
 

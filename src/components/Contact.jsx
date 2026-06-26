@@ -36,7 +36,7 @@ const Contact = () => {
     setStatus('Sending...');
     setSubmitting(true);
 
-    const serviceID = 'service_zfszc8e';
+    const serviceID = 'service_vy4m49c';
     const templateID = 'template_2uu0c48';
     const publicKey = 'xYxaRf_0yrxW_GecZ';
 
