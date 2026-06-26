@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.55182be2.css",
-    "main.js": "/portfolio/static/js/main.272c823e.js",
+    "main.css": "/portfolio/static/css/main.ea6e91f9.css",
+    "main.js": "/portfolio/static/js/main.dd4ea466.js",
     "static/media/Library.png": "/portfolio/static/media/Library.47eaef24930429950b78.png",
     "static/media/portfolio.png": "/portfolio/static/media/portfolio.3c92474ec1845124e1a5.png",
     "static/media/eCommerce.png": "/portfolio/static/media/eCommerce.d72a073965df2fb292e3.png",
@@ -13,6 +13,7 @@
     "static/media/networking.png": "/portfolio/static/media/networking.7f47441abf00b8eddaf5.png",
     "static/media/cyberSecurity.png": "/portfolio/static/media/cyberSecurity.3709bbfc5f0c8baf6ecc.png",
     "static/media/aldeon-world.png": "/portfolio/static/media/aldeon-world.5ffa7703019894f27577.png",
+    "static/media/vibarua-img.png": "/portfolio/static/media/vibarua-img.87ccc9002d657e61d7a3.png",
     "static/media/versionControl.png": "/portfolio/static/media/versionControl.94097f4a3a115f53c9d7.png",
     "static/media/timeManagement.png": "/portfolio/static/media/timeManagement.85db882564f80b83590d.png",
     "static/media/python.png": "/portfolio/static/media/python.9859e72b503f6212e340.png",
@@ -26,6 +27,7 @@
     "static/media/problemSolving.png": "/portfolio/static/media/problemSolving.1c43f2c7a1b2fe9eb110.png",
     "static/media/apis.png": "/portfolio/static/media/apis.915ac773759c8ddfc947.png",
     "static/media/communicationSkills.png": "/portfolio/static/media/communicationSkills.5c85c946173cbe1d7ad9.png",
+    "static/media/cloud.jpg": "/portfolio/static/media/cloud.de24ab4193ca194cb652.jpg",
     "static/media/nextjs.png": "/portfolio/static/media/nextjs.e44563251250998c64fe.png",
     "static/media/html.png": "/portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
     "static/media/tailwind.png": "/portfolio/static/media/tailwind.e47ac876b8d4d0bba47a.png",
@@ -36,11 +38,11 @@
     "static/media/javascript.png": "/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "static/media/react.ico": "/portfolio/static/media/react.4fe75d5f9adb18067b85.ico",
     "index.html": "/portfolio/index.html",
-    "main.55182be2.css.map": "/portfolio/static/css/main.55182be2.css.map",
-    "main.272c823e.js.map": "/portfolio/static/js/main.272c823e.js.map"
+    "main.ea6e91f9.css.map": "/portfolio/static/css/main.ea6e91f9.css.map",
+    "main.dd4ea466.js.map": "/portfolio/static/js/main.dd4ea466.js.map"
   },
   "entrypoints": [
-    "static/css/main.55182be2.css",
-    "static/js/main.272c823e.js"
+    "static/css/main.ea6e91f9.css",
+    "static/js/main.dd4ea466.js"
   ]
 }
