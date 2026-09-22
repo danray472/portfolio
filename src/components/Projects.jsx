@@ -8,7 +8,7 @@ import bsrHospital from '../assets/bsrHospital.png';
 import Library from '../assets/Library.png';
 import electronicRepair from '../assets/electronic-repair.png';
 import aldeonWorld from '../assets/aldeon-world.png';
-import vibaruaImg from '../assets/vibarua-img.png';
+import vibaruaImg from '../assets/vibarua.png';
 
 const Projects = () => {
   const projects = [

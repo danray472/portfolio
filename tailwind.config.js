@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: 'class', // Enable dark mode using the 'class' strategy
-  content: ["./src/**/*.{html,js,jsx}"],
+  darkMode: 'class',
+  content: ['./index.html', './src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
       animation: {
@@ -9,17 +9,17 @@ module.exports = {
         ping: 'ping 1s cubic-bezier(0, 0, 0.2, 1) infinite',
         pulse: 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
         bounce: 'bounce 1s infinite',
-        wiggle: 'wiggle 1s ease-in-out infinite', // Custom animation
-        flash: 'flash 1s linear infinite', // Custom animation
-        slideInLeft: 'slideInLeft 1s ease-in-out', // Custom animation
-        slideInRight: 'slideInRight 1s ease-in-out', // Custom animation
-        slideInUp: 'slideInUp 1s ease-in-out', // Custom animation
-        slideInDown: 'slideInDown 1s ease-in-out', // Custom animation
-        fadeIn: 'fadeIn 1s ease-in forwards', // Custom animation
-        fadeOut: 'fadeOut 1s ease-out forwards', // Custom animation
-        zoomIn: 'zoomIn 1s ease-in forwards', // Custom animation
-        zoomOut: 'zoomOut 1s ease-out forwards', // Custom animation
-        shake: 'shake 1s ease-in-out infinite', // Custom animation
+        wiggle: 'wiggle 1s ease-in-out infinite',
+        flash: 'flash 1s linear infinite',
+        slideInLeft: 'slideInLeft 1s ease-in-out',
+        slideInRight: 'slideInRight 1s ease-in-out',
+        slideInUp: 'slideInUp 1s ease-in-out',
+        slideInDown: 'slideInDown 1s ease-in-out',
+        fadeIn: 'fadeIn 1s ease-in forwards',
+        fadeOut: 'fadeOut 1s ease-out forwards',
+        zoomIn: 'zoomIn 1s ease-in forwards',
+        zoomOut: 'zoomOut 1s ease-out forwards',
+        shake: 'shake 1s ease-in-out infinite',
       },
       keyframes: {
         wiggle: {
@@ -68,8 +68,7 @@ module.exports = {
           '20%, 40%, 60%, 80%': { transform: 'translateX(10px)' },
         },
       },
-      
     },
   },
   plugins: [],
-}
+};
